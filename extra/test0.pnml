@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+  <net id="net1" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <page id="page1">
+    
+      <place id="p1">
+        <name>
+          <text>producer_done</text>
+        </name>
+        <initialMarking>
+          <text>1</text> 
+        </initialMarking>
+        <graphics>
+          <position x="100" y="100"/>
+        </graphics>
+      </place>
+
+      <place id="p2">
+        <name>
+          <text>buffer</text>
+        </name>
+        <initialMarking>
+          <text>0</text>
+        </initialMarking>
+        <graphics>
+          <position x="200" y="100"/>
+        </graphics>
+      </place>
+
+      <place id="p3">
+        <name>
+          <text>consumer_waiting</text>
+        </name>
+        <initialMarking>
+          <text>0</text>
+        </initialMarking>
+        <graphics>
+          <position x="300" y="100"/>
+        </graphics>
+      </place>
+
+      <transition id="t1">
+        <name>
+          <text>produce</text>
+        </name>
+        <graphics>
+          <position x="150" y="50"/>
+        </graphics>
+      </transition>
+
+      <transition id="t2">
+        <name>
+          <text>consume</text>
+        </name>
+        <graphics>
+          <position x="250" y="150"/>
+        </graphics>
+      </transition>
+
+      <arc id="a1" source="p1" target="t1">
+        <inscription>
+          <text>1</text>
+        </inscription>
+      </arc>
+      <arc id="a2" source="t1" target="p2">
+        <inscription>
+            <text>1</text>
+        </inscription>
+      </arc>
+      <arc id="a3" source="p2" target="t2">
+        <inscription>
+            <text>1</text>
+        </inscription>
+      </arc>
+      <arc id="a4" source="t2" target="p3">
+        <inscription>
+            <text>1</text>
+        </inscription>
+      </arc>
+      
+    </page>
+  </net>
+</pnml>

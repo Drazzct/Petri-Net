@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+  <net id="explosion" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <page id="page0">
+      <place id="p_off_0">
+        <name><text>Switch_0_OFF</text></name>
+        <initialMarking><text>1</text></initialMarking>
+      </place>
+      <place id="p_on_0">
+        <name><text>Switch_0_ON</text></name>
+      </place>
+      <transition id="t_on_0">
+        <name><text>Turn_On_0</text></name>
+      </transition>
+      <arc id="a_on_pre_0" source="p_off_0" target="t_on_0"/>
+      <arc id="a_on_post_0" source="t_on_0" target="p_on_0"/>
+      <transition id="t_off_0">
+        <name><text>Turn_Off_0</text></name>
+      </transition>
+      <arc id="a_off_pre_0" source="p_on_0" target="t_off_0"/>
+      <arc id="a_off_post_0" source="t_off_0" target="p_off_0"/>
+      <place id="p_master">
+        <name><text>Master_Power</text></name>
+        <initialMarking><text>1</text></initialMarking>
+      </place>
+      <arc id="a_master_pre_on_0" source="p_master" target="t_on_0"/>
+      <arc id="a_master_post_on_0" source="t_on_0" target="p_master"/>
+      <arc id="a_master_pre_off_0" source="p_master" target="t_off_0"/>
+      <arc id="a_master_post_off_0" source="t_off_0" target="p_master"/>
+      <transition id="t_blow_fuse">
+        <name><text>Blow_Fuse</text></name>
+      </transition>
+      <arc id="a_blow_master" source="p_master" target="t_blow_fuse"/>
+      <arc id="a_blow_pre_0" source="p_on_0" target="t_blow_fuse"/>
+      <arc id="a_blow_post_0" source="t_blow_fuse" target="p_on_0"/>
+    </page>
+  </net>
+</pnml>

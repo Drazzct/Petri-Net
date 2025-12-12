@@ -1,0 +1,18 @@
+Places: ['4ae95f47-c1c9-4986-bbb7-ea16bb88aee6', 'c5ddb613-d239-46ca-8099-107851dde7c8', '8d0d229f-3e8c-417a-ba59-8e28335a1c1b']
+Place names: ['P1', 'P2', 'P3']
+
+Transitions: ['afda5df1-6c84-4912-9eea-1131537be8ce', '452b6aa7-fbfd-4074-b3a1-b6a5db305a55', 'bb0149e2-3e85-4e40-a540-94269d5e1a3d']
+Transition names: ['T1', 'T2', 'T3']
+
+I (input) matrix:
+[[1 0 0]
+ [0 1 0]
+ [0 0 1]]
+
+O (output) matrix:
+[[0 1 0]
+ [0 0 1]
+ [1 0 0]]
+
+Initial marking M0:
+[1 0 0]

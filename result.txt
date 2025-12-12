@@ -1,0 +1,1155 @@
+Loading PNML: example.pnml
+
+--- Petri Net Loaded ---
+Places: ['P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9', 'P10', 'P11', 'P12', 'P13', 'P14', 'P15', 'P16', 'P17', 'P18', 'P19', 'P20']
+Place names: ['P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9', 'P10', 'P11', 'P12', 'P13', 'P14', 'P15', 'P16', 'P17', 'P18', 'P19', 'P20']
+
+Transitions: ['T1', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7', 'T8', 'T9', 'T10', 'T11', 'T12', 'T13', 'T14', 'T15', 'T16', 'T17', 'T18', 'T19', 'T20', 'T21', 'T22', 'T23']
+Transition names: ['T1', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7', 'T8', 'T9', 'T10', 'T11', 'T12', 'T13', 'T14', 'T15', 'T16', 'T17', 'T18', 'T19', 'T20', 'T21', 'T22', 'T23']
+
+I (input) matrix:
+[[1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0]
+ [1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0]
+ [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0]
+ [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1]]
+
+O (output) matrix:
+[[0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0]
+ [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0]
+ [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1]
+ [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0]]
+
+Initial marking M0:
+[1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+
+--- BFS Reachable Markings ---
+Total BFS reachable = 1048559
+
+--- DFS Reachable Markings ---
+Total DFS reachable = 1048559
+
+--- BDD Reachable ---
+--- Satisfying assignments ---
+P1=0, P2=0, P3=0, P4=0, P8=0, P9=0, P10=0, P11=0, P12=0, P13=0, P14=0, P15=0, P16=0, P17=0, P18=0, P19=0, P20=1
+P1=0, P2=0, P3=0, P4=0, P8=0, P9=0, P10=0, P11=0, P12=0, P13=0, P14=0, P15=0, P16=0, P17=0, P18=0, P19=1
+P1=0, P2=0, P3=0, P4=0, P8=0, P9=0, P10=0, P11=0, P12=0, P13=0, P14=0, P15=0, P16=0, P17=0, P18=1
+P1=0, P2=0, P3=0, P4=0, P8=0, P9=0, P10=0, P11=0, P12=0, P13=0, P14=0, P15=0, P16=0, P17=1
+P1=0, P2=0, P3=0, P4=0, P8=0, P9=0, P10=0, P11=0, P12=0, P13=0, P14=0, P15=0, P16=1
+P1=0, P2=0, P3=0, P4=0, P8=0, P9=0, P10=0, P11=0, P12=0, P13=0, P14=0, P15=1
+P1=0, P2=0, P3=0, P4=0, P8=0, P9=0, P10=0, P11=0, P12=0, P13=0, P14=1
+P1=0, P2=0, P3=0, P4=0, P8=0, P9=0, P10=0, P11=0, P12=0, P13=1
+P1=0, P2=0, P3=0, P4=0, P8=0, P9=0, P10=0, P11=0, P12=1
+P1=0, P2=0, P3=0, P4=0, P8=0, P9=0, P10=0, P11=1
+P1=0, P2=0, P3=0, P4=0, P8=0, P9=0, P10=1
+P1=0, P2=0, P3=0, P4=0, P8=0, P9=1
+P1=0, P2=0, P3=0, P4=0, P8=1
+P1=0, P2=0, P3=0, P4=1, P5=0, P6=0, P7=0, P8=0, P9=0, P10=0, P11=0, P12=0, P13=0, P14=0, P15=0, P16=0, P17=0, P18=0, P19=0, P20=1
+P1=0, P2=0, P3=0, P4=1, P5=0, P6=0, P7=0, P8=0, P9=0, P10=0, P11=0, P12=0, P13=0, P14=0, P15=0, P16=0, P17=0, P18=0, P19=1
+P1=0, P2=0, P3=0, P4=1, P5=0, P6=0, P7=0, P8=0, P9=0, P10=0, P11=0, P12=0, P13=0, P14=0, P15=0, P16=0, P17=0, P18=1
+P1=0, P2=0, P3=0, P4=1, P5=0, P6=0, P7=0, P8=0, P9=0, P10=0, P11=0, P12=0, P13=0, P14=0, P15=0, P16=0, P17=1
+P1=0, P2=0, P3=0, P4=1, P5=0, P6=0, P7=0, P8=0, P9=0, P10=0, P11=0, P12=0, P13=0, P14=0, P15=0, P16=1
+P1=0, P2=0, P3=0, P4=1, P5=0, P6=0, P7=0, P8=0, P9=0, P10=0, P11=0, P12=0, P13=0, P14=0, P15=1
+P1=0, P2=0, P3=0, P4=1, P5=0, P6=0, P7=0, P8=0, P9=0, P10=0, P11=0, P12=0, P13=0, P14=1
+P1=0, P2=0, P3=0, P4=1, P5=0, P6=0, P7=0, P8=0, P9=0, P10=0, P11=0, P12=0, P13=1
+P1=0, P2=0, P3=0, P4=1, P5=0, P6=0, P7=0, P8=0, P9=0, P10=0, P11=0, P12=1
+P1=0, P2=0, P3=0, P4=1, P5=0, P6=0, P7=0, P8=0, P9=0, P10=0, P11=1
+P1=0, P2=0, P3=0, P4=1, P5=0, P6=0, P7=0, P8=0, P9=0, P10=1
+P1=0, P2=0, P3=0, P4=1, P5=0, P6=0, P7=0, P8=0, P9=1
+P1=0, P2=0, P3=0, P4=1, P5=0, P6=0, P7=0, P8=1
+P1=0, P2=0, P3=0, P4=1, P5=0, P6=0, P7=1
+P1=0, P2=0, P3=0, P4=1, P5=0, P6=1
+P1=0, P2=0, P3=0, P4=1, P5=1
+P1=0, P2=0, P3=1, P5=0, P6=0, P7=0, P8=0, P9=0, P10=0, P11=0, P12=0, P13=0, P14=0, P15=0, P16=0, P17=0, P18=0, P19=0, P20=1
+P1=0, P2=0, P3=1, P5=0, P6=0, P7=0, P8=0, P9=0, P10=0, P11=0, P12=0, P13=0, P14=0, P15=0, P16=0, P17=0, P18=0, P19=1
+P1=0, P2=0, P3=1, P5=0, P6=0, P7=0, P8=0, P9=0, P10=0, P11=0, P12=0, P13=0, P14=0, P15=0, P16=0, P17=0, P18=1
+P1=0, P2=0, P3=1, P5=0, P6=0, P7=0, P8=0, P9=0, P10=0, P11=0, P12=0, P13=0, P14=0, P15=0, P16=0, P17=1
+P1=0, P2=0, P3=1, P5=0, P6=0, P7=0, P8=0, P9=0, P10=0, P11=0, P12=0, P13=0, P14=0, P15=0, P16=1
+P1=0, P2=0, P3=1, P5=0, P6=0, P7=0, P8=0, P9=0, P10=0, P11=0, P12=0, P13=0, P14=0, P15=1
+P1=0, P2=0, P3=1, P5=0, P6=0, P7=0, P8=0, P9=0, P10=0, P11=0, P12=0, P13=0, P14=1
+P1=0, P2=0, P3=1, P5=0, P6=0, P7=0, P8=0, P9=0, P10=0, P11=0, P12=0, P13=1
+P1=0, P2=0, P3=1, P5=0, P6=0, P7=0, P8=0, P9=0, P10=0, P11=0, P12=1
+P1=0, P2=0, P3=1, P5=0, P6=0, P7=0, P8=0, P9=0, P10=0, P11=1
+P1=0, P2=0, P3=1, P5=0, P6=0, P7=0, P8=0, P9=0, P10=1
+P1=0, P2=0, P3=1, P5=0, P6=0, P7=0, P8=0, P9=1
+P1=0, P2=0, P3=1, P5=0, P6=0, P7=0, P8=1
+P1=0, P2=0, P3=1, P5=0, P6=0, P7=1
+P1=0, P2=0, P3=1, P5=0, P6=1
+P1=0, P2=0, P3=1, P5=1
+P1=0, P2=1, P5=0, P6=0, P7=0, P8=0, P9=0, P10=0, P11=0, P12=0, P13=0, P14=0, P15=0, P16=0, P17=0, P18=0, P19=0, P20=1
+P1=0, P2=1, P5=0, P6=0, P7=0, P8=0, P9=0, P10=0, P11=0, P12=0, P13=0, P14=0, P15=0, P16=0, P17=0, P18=0, P19=1
+P1=0, P2=1, P5=0, P6=0, P7=0, P8=0, P9=0, P10=0, P11=0, P12=0, P13=0, P14=0, P15=0, P16=0, P17=0, P18=1
+P1=0, P2=1, P5=0, P6=0, P7=0, P8=0, P9=0, P10=0, P11=0, P12=0, P13=0, P14=0, P15=0, P16=0, P17=1
+P1=0, P2=1, P5=0, P6=0, P7=0, P8=0, P9=0, P10=0, P11=0, P12=0, P13=0, P14=0, P15=0, P16=1
+P1=0, P2=1, P5=0, P6=0, P7=0, P8=0, P9=0, P10=0, P11=0, P12=0, P13=0, P14=0, P15=1
+P1=0, P2=1, P5=0, P6=0, P7=0, P8=0, P9=0, P10=0, P11=0, P12=0, P13=0, P14=1
+P1=0, P2=1, P5=0, P6=0, P7=0, P8=0, P9=0, P10=0, P11=0, P12=0, P13=1
+P1=0, P2=1, P5=0, P6=0, P7=0, P8=0, P9=0, P10=0, P11=0, P12=1
+P1=0, P2=1, P5=0, P6=0, P7=0, P8=0, P9=0, P10=0, P11=1
+P1=0, P2=1, P5=0, P6=0, P7=0, P8=0, P9=0, P10=1
+P1=0, P2=1, P5=0, P6=0, P7=0, P8=0, P9=1
+P1=0, P2=1, P5=0, P6=0, P7=0, P8=1
+P1=0, P2=1, P5=0, P6=0, P7=1
+P1=0, P2=1, P5=0, P6=1
+P1=0, P2=1, P5=1
+P1=1, P2=0
+P1=1, P2=1, P3=0
+P1=1, P2=1, P3=1, P4=0
+P1=1, P2=1, P3=1, P4=1, P5=0
+P1=1, P2=1, P3=1, P4=1, P5=1, P6=0
+P1=1, P2=1, P3=1, P4=1, P5=1, P6=1, P7=0
+P1=1, P2=1, P3=1, P4=1, P5=1, P6=1, P7=1, P9=0
+P1=1, P2=1, P3=1, P4=1, P5=1, P6=1, P7=1, P9=1, P10=0
+P1=1, P2=1, P3=1, P4=1, P5=1, P6=1, P7=1, P9=1, P10=1, P11=0
+P1=1, P2=1, P3=1, P4=1, P5=1, P6=1, P7=1, P9=1, P10=1, P11=1, P12=0
+P1=1, P2=1, P3=1, P4=1, P5=1, P6=1, P7=1, P9=1, P10=1, P11=1, P12=1, P13=0
+P1=1, P2=1, P3=1, P4=1, P5=1, P6=1, P7=1, P9=1, P10=1, P11=1, P12=1, P13=1, P14=0
+P1=1, P2=1, P3=1, P4=1, P5=1, P6=1, P7=1, P9=1, P10=1, P11=1, P12=1, P13=1, P14=1, P15=0
+P1=1, P2=1, P3=1, P4=1, P5=1, P6=1, P7=1, P9=1, P10=1, P11=1, P12=1, P13=1, P14=1, P15=1, P16=0
+P1=1, P2=1, P3=1, P4=1, P5=1, P6=1, P7=1, P9=1, P10=1, P11=1, P12=1, P13=1, P14=1, P15=1, P16=1, P17=0
+P1=1, P2=1, P3=1, P4=1, P5=1, P6=1, P7=1, P9=1, P10=1, P11=1, P12=1, P13=1, P14=1, P15=1, P16=1, P17=1, P18=0
+P1=1, P2=1, P3=1, P4=1, P5=1, P6=1, P7=1, P9=1, P10=1, P11=1, P12=1, P13=1, P14=1, P15=1, P16=1, P17=1, P18=1, P19=0
+P1=1, P2=1, P3=1, P4=1, P5=1, P6=1, P7=1, P9=1, P10=1, P11=1, P12=1, P13=1, P14=1, P15=1, P16=1, P17=1, P18=1, P19=1, P20=0
+BDD reachable markings = 1048559
+
+--- Deadlock reachable marking ---
+Deadlock marking: [[1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+
+--- Optimize c·M ---
+Max marking: 0 1 1 0 1 1 1 0 1 0 0 1 1 1 1 0 1 1 1 1 Max value: 33
+Max marking: 0 1 1 1 0 0 1 0 1 1 1 0 1 0 1 1 0 0 1 0 Max value: 33
+Max marking: 1 1 1 0 0 1 1 1 0 1 1 1 1 0 0 1 1 0 0 0 Max value: 32
+Max marking: 0 0 0 0 1 1 0 1 0 1 1 1 1 0 1 1 1 1 1 1 Max value: 30
+Max marking: 1 1 0 0 1 1 0 1 1 1 1 0 1 1 1 0 0 1 0 0 Max value: 38
+Max marking: 0 1 1 0 1 1 0 1 0 1 0 0 0 1 0 0 0 1 1 1 Max value: 30
+Max marking: 1 0 1 0 0 1 1 0 1 1 1 0 1 0 0 1 0 0 0 0 Max value: 23
+Max marking: 1 0 0 1 0 1 0 1 1 1 1 0 1 0 0 1 0 0 0 0 Max value: 14
+Max marking: 0 1 0 0 1 0 1 1 1 1 0 0 0 0 1 1 1 0 1 0 Max value: 14
+Max marking: 1 1 0 1 1 0 1 0 1 1 1 0 0 1 0 1 0 0 0 0 Max value: 31
+Max marking: 1 0 0 1 0 1 0 0 0 0 0 1 1 0 1 1 1 0 0 1 Max value: 25
+Max marking: 0 0 0 0 1 0 1 0 1 1 1 1 0 1 1 0 1 0 1 0 Max value: 25
+Max marking: 1 1 0 0 1 0 0 0 0 0 1 1 0 0 0 1 1 1 1 0 Max value: 30
+Max marking: 1 0 1 0 1 1 0 1 1 0 0 0 0 0 1 1 0 0 0 1 Max value: 35
+Max marking: 0 0 1 1 0 0 0 1 1 0 0 0 1 1 1 1 0 1 1 1 Max value: 42
+Max marking: 0 1 1 0 1 0 1 0 1 1 0 0 1 1 1 1 1 1 0 1 Max value: 30
+Max marking: 0 0 1 0 0 0 1 0 1 1 1 0 1 1 1 1 1 1 1 1 Max value: 29
+Max marking: 0 1 1 0 0 0 1 0 1 1 0 1 1 0 0 1 1 0 1 0 Max value: 30
+Max marking: 1 0 1 1 0 1 0 0 1 0 1 0 1 1 0 0 1 0 0 0 Max value: 31
+Max marking: 0 0 0 0 0 1 1 0 1 0 0 0 0 1 0 1 0 1 0 0 Max value: 23
+Max marking: 0 0 0 1 0 1 0 1 0 1 0 0 0 1 1 1 0 1 0 0 Max value: 18
+Max marking: 1 0 1 0 1 0 0 1 1 1 0 1 0 0 1 1 1 1 0 0 Max value: 24
+Max marking: 0 1 1 1 1 1 0 1 0 1 0 0 0 1 0 0 0 1 1 1 Max value: 23
+Max marking: 0 1 0 1 0 0 1 1 1 0 1 1 1 0 0 1 0 0 1 1 Max value: 34
+Max marking: 0 0 0 1 0 0 0 1 1 1 0 1 1 0 0 1 1 1 1 0 Max value: 25
+Max marking: 0 1 1 0 1 0 1 1 0 1 0 0 0 1 1 0 1 0 1 1 Max value: 34
+Max marking: 0 0 1 1 1 0 0 0 0 1 1 1 0 0 1 0 1 0 0 0 Max value: 22
+Max marking: 0 0 1 1 1 1 1 0 0 1 1 0 1 0 0 1 0 0 0 1 Max value: 33
+Max marking: 0 0 0 0 1 0 0 0 0 0 0 1 1 0 1 1 0 0 0 1 Max value: 14
+Max marking: 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 Max value: 9
+Max marking: 1 1 1 0 1 0 0 0 1 0 1 1 1 0 1 0 0 1 0 0 Max value: 19
+Max marking: 0 1 1 0 0 0 1 1 1 1 0 0 0 1 0 0 0 1 1 0 Max value: 23
+Max marking: 0 1 1 1 1 0 1 1 0 1 1 1 0 0 1 0 0 1 0 0 Max value: 25
+Max marking: 0 1 1 1 0 1 1 1 1 0 1 1 1 0 1 1 0 1 0 1 Max value: 39
+Max marking: 0 0 0 1 1 1 1 1 1 1 1 1 0 0 0 1 0 0 1 1 Max value: 21
+Max marking: 1 1 0 0 1 1 1 0 0 0 0 0 1 1 0 0 1 1 1 0 Max value: 26
+Max marking: 0 1 1 0 1 0 1 0 0 1 0 1 0 0 0 0 0 1 1 1 Max value: 23
+Max marking: 0 1 0 0 1 1 1 1 0 0 1 1 0 0 1 0 0 0 1 0 Max value: 23
+Max marking: 0 0 0 0 1 0 1 0 1 0 0 0 0 0 1 1 1 0 1 1 Max value: 21
+Max marking: 1 1 0 1 0 0 0 0 1 1 1 1 0 1 0 1 1 1 0 1 Max value: 35
+Max marking: 1 0 1 0 1 0 0 0 1 1 0 1 1 1 0 0 0 1 1 1 Max value: 28
+Max marking: 0 0 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 1 1 1 Max value: 35
+Max marking: 0 1 1 1 1 1 0 0 1 1 1 0 0 0 0 1 0 1 1 0 Max value: 26
+Max marking: 1 0 1 1 0 1 0 0 0 1 0 1 1 0 0 1 1 1 0 0 Max value: 32
+Max marking: 0 1 0 1 0 0 0 1 0 0 1 1 0 0 1 0 1 1 1 1 Max value: 20
+Max marking: 0 0 1 0 1 0 1 1 1 1 0 1 0 0 0 0 0 1 1 1 Max value: 28
+Max marking: 0 1 1 1 1 0 0 0 1 1 1 0 1 1 0 1 0 1 1 0 Max value: 27
+Max marking: 0 0 0 1 0 0 0 1 1 1 1 1 0 1 0 1 0 1 1 1 Max value: 35
+Max marking: 1 0 0 1 1 1 0 1 0 1 0 0 1 1 1 1 1 1 1 1 Max value: 46
+Max marking: 1 1 0 0 1 0 1 1 0 0 0 0 0 1 1 1 1 1 1 1 Max value: 38
+Max marking: 1 0 1 0 1 0 0 1 1 1 1 1 0 1 1 1 1 0 0 0 Max value: 29
+Max marking: 0 0 0 1 0 0 1 0 0 0 0 1 1 0 0 0 1 1 0 0 Max value: 15
+Max marking: 0 1 1 0 0 1 1 0 0 0 0 0 0 0 1 1 0 0 1 0 Max value: 18
+Max marking: 0 0 0 1 0 1 1 0 1 1 0 1 1 1 1 1 0 1 1 1 Max value: 36
+Max marking: 1 0 0 1 0 0 1 1 1 0 0 1 0 1 1 0 0 1 1 1 Max value: 44
+Max marking: 1 1 1 0 0 1 0 0 1 0 0 1 1 0 1 1 1 1 1 1 Max value: 35
+Max marking: 0 0 0 0 1 0 0 0 1 1 0 0 1 0 1 1 1 0 1 0 Max value: 16
+Max marking: 0 0 0 1 1 1 1 1 1 1 0 1 1 0 1 1 0 0 1 0 Max value: 23
+Max marking: 0 0 0 1 0 1 1 1 0 0 1 0 0 1 1 1 0 1 0 1 Max value: 25
+Max marking: 1 1 1 1 0 1 1 1 1 1 0 0 0 1 0 1 0 0 1 0 Max value: 36
+Max marking: 1 1 1 0 0 1 0 1 0 0 0 0 1 1 0 1 1 1 0 0 Max value: 28
+Max marking: 0 0 0 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 1 0 Max value: 36
+Max marking: 0 0 1 0 1 0 1 0 1 0 0 1 0 0 0 0 1 0 0 0 Max value: 22
+Max marking: 0 1 0 1 0 1 1 0 1 1 1 1 0 0 0 1 0 0 0 1 Max value: 28
+Max marking: 0 0 0 1 1 0 0 0 1 0 1 1 1 1 0 1 1 1 0 1 Max value: 31
+Max marking: 1 1 1 0 0 1 0 0 0 1 0 1 1 1 0 0 0 0 1 0 Max value: 34
+Max marking: 0 1 1 1 0 0 0 1 1 1 1 0 1 1 0 1 0 1 0 1 Max value: 22
+Max marking: 1 1 0 1 0 1 0 0 1 1 0 0 0 1 0 1 1 0 0 0 Max value: 28
+Max marking: 0 1 0 0 0 0 0 1 0 0 1 0 0 1 1 0 0 1 1 0 Max value: 14
+Max marking: 0 0 1 0 1 0 1 1 1 1 1 1 1 1 1 0 1 0 1 1 Max value: 36
+Max marking: 0 1 0 1 0 1 1 0 1 0 0 0 0 1 0 1 1 1 0 1 Max value: 23
+Max marking: 1 1 1 0 1 1 0 1 1 0 0 1 1 0 1 0 1 1 1 1 Max value: 42
+Max marking: 1 1 1 0 1 1 1 1 0 1 0 0 1 0 1 1 1 1 0 1 Max value: 43
+Max marking: 0 1 1 0 0 1 0 0 0 1 0 0 1 1 0 0 0 0 1 1 Max value: 23
+Max marking: 1 0 0 1 0 1 1 1 1 1 0 1 0 1 1 0 1 0 0 0 Max value: 32
+Max marking: 1 0 0 0 0 1 1 1 0 1 1 1 0 1 1 1 1 0 0 1 Max value: 23
+Max marking: 0 0 1 0 0 0 0 0 1 1 0 1 0 1 1 0 1 0 0 1 Max value: 15
+Max marking: 0 0 0 1 1 0 1 0 0 1 1 1 0 1 0 1 0 1 1 0 Max value: 27
+Max marking: 0 1 0 1 1 1 0 1 1 0 0 1 0 1 0 1 1 1 0 0 Max value: 28
+Max marking: 1 0 1 1 0 1 0 0 1 0 1 1 1 1 1 1 1 1 1 1 Max value: 35
+Max marking: 0 0 1 0 1 1 0 1 1 0 0 1 0 1 1 1 1 0 0 1 Max value: 29
+Max marking: 1 0 0 0 1 0 0 1 0 1 1 0 1 1 1 1 1 0 1 1 Max value: 36
+Max marking: 1 1 0 0 1 1 1 0 1 0 1 1 1 0 0 1 1 1 1 1 Max value: 46
+Max marking: 0 0 0 0 0 0 1 0 1 0 1 0 0 0 0 1 1 1 1 1 Max value: 33
+Max marking: 0 1 0 0 0 0 1 0 0 1 0 1 0 0 0 0 0 1 0 0 Max value: 18
+Max marking: 0 1 1 0 0 1 1 1 1 1 0 0 0 0 1 0 0 1 1 1 Max value: 26
+Max marking: 0 1 0 0 1 0 0 0 0 0 1 1 1 0 1 0 0 1 0 0 Max value: 16
+Max marking: 1 1 0 0 0 0 1 0 1 1 1 1 1 0 1 0 1 0 0 0 Max value: 27
+Max marking: 0 0 1 1 0 1 1 0 0 0 0 0 0 1 0 0 0 0 1 1 Max value: 12
+Max marking: 1 1 0 0 0 1 1 0 1 0 1 0 0 0 1 0 0 1 1 0 Max value: 27
+Max marking: 1 1 1 0 0 1 1 1 0 1 1 0 1 0 0 0 0 1 0 0 Max value: 30
+Max marking: 0 1 1 1 0 1 0 0 1 0 0 1 0 0 1 1 1 0 1 1 Max value: 32
+Max marking: 0 1 1 0 0 1 0 0 0 0 1 0 0 1 0 1 0 0 0 1 Max value: 18
+Max marking: 0 1 1 1 0 0 0 1 1 0 1 0 0 0 1 0 1 1 0 1 Max value: 28
+Max marking: 1 0 0 1 1 0 1 0 0 1 0 1 1 1 0 0 1 0 0 1 Max value: 15
+Max marking: 0 1 1 1 0 0 1 0 1 1 1 0 0 1 1 1 0 1 1 0 Max value: 32
+Max marking: 0 1 0 1 1 1 1 1 0 1 0 1 0 1 1 1 1 0 1 1 Max value: 42
+Max marking: 1 0 0 0 1 1 0 0 0 1 0 0 1 1 1 1 0 1 0 0 Max value: 21
+Max marking: 1 1 0 1 0 0 0 0 1 1 1 0 1 1 1 1 1 0 1 1 Max value: 26
+Max marking: 0 0 0 0 1 1 1 0 1 1 1 1 0 0 1 1 0 0 1 1 Max value: 23
+Max marking: 0 0 0 1 1 1 1 0 1 0 0 1 1 0 0 0 0 0 1 0 Max value: 19
+Max marking: 0 0 1 0 0 1 0 0 0 0 1 0 1 1 0 0 1 0 1 0 Max value: 14
+Max marking: 1 1 1 0 1 0 1 0 0 0 1 1 1 1 0 0 1 1 0 1 Max value: 46
+Max marking: 0 0 1 1 0 0 0 1 0 0 1 1 1 0 1 1 0 1 0 1 Max value: 16
+Max marking: 1 0 1 1 0 1 1 1 1 1 1 0 1 0 1 0 0 0 0 1 Max value: 25
+Max marking: 0 1 1 1 1 1 0 0 0 1 1 0 1 0 1 1 1 1 1 0 Max value: 25
+Max marking: 0 0 0 1 1 0 0 1 1 0 1 0 0 1 0 0 1 1 1 1 Max value: 25
+Max marking: 1 0 0 1 1 0 1 1 0 1 0 1 1 0 1 0 0 0 0 1 Max value: 17
+Max marking: 1 1 1 0 1 1 0 0 0 0 0 1 0 0 1 0 1 1 1 0 Max value: 24
+Max marking: 1 0 0 0 1 1 0 0 0 1 1 0 0 1 1 0 0 1 1 0 Max value: 21
+Max marking: 0 1 0 1 1 1 0 1 0 1 1 1 1 1 1 0 1 1 0 0 Max value: 37
+Max marking: 0 0 1 1 1 1 0 1 0 0 1 0 1 0 0 1 1 1 1 1 Max value: 23
+Max marking: 0 1 1 0 0 0 1 0 1 1 0 0 1 0 0 1 1 1 0 1 Max value: 24
+Max marking: 0 1 0 0 0 0 0 0 1 0 1 0 0 0 0 1 1 0 0 1 Max value: 15
+Max marking: 0 0 1 1 0 0 1 0 1 0 0 1 0 1 0 0 1 0 1 0 Max value: 13
+Max marking: 0 1 0 0 1 0 0 1 0 1 1 1 1 0 0 0 0 1 0 1 Max value: 21
+Max marking: 0 0 0 0 1 1 1 1 0 1 0 1 0 0 0 0 0 0 1 0 Max value: 15
+Max marking: 0 0 1 1 1 1 0 0 1 1 1 0 0 1 0 0 1 1 0 0 Max value: 29
+Max marking: 1 0 0 0 0 0 1 1 1 1 0 1 1 1 0 1 0 0 1 0 Max value: 33
+Max marking: 0 1 0 1 1 1 1 1 1 0 0 0 1 0 1 1 1 1 1 1 Max value: 36
+Max marking: 0 0 0 0 1 0 1 1 1 0 0 1 0 0 1 0 1 1 1 0 Max value: 19
+Max marking: 1 1 0 1 0 1 0 0 0 1 0 1 1 1 0 0 0 0 1 0 Max value: 25
+Max marking: 0 0 1 0 1 0 0 1 0 0 1 1 0 0 1 0 1 0 0 0 Max value: 21
+Max marking: 1 1 1 1 1 1 1 1 1 0 0 1 0 0 1 1 1 0 0 0 Max value: 43
+Max marking: 0 1 0 0 1 0 0 1 1 0 0 0 0 0 0 1 0 1 1 1 Max value: 21
+Max marking: 1 1 1 0 0 1 1 1 0 1 1 1 0 1 1 0 1 0 1 0 Max value: 35
+Max marking: 1 0 1 0 1 0 0 0 0 1 0 1 0 1 1 0 0 1 0 0 Max value: 16
+Max marking: 0 0 0 0 0 1 1 0 1 1 0 1 1 0 0 0 0 0 1 0 Max value: 17
+Max marking: 0 1 1 0 0 1 0 1 0 0 0 0 1 1 1 1 0 1 1 1 Max value: 32
+Max marking: 1 1 1 0 0 0 1 1 1 1 1 0 1 0 0 1 1 1 0 1 Max value: 36
+Max marking: 0 1 0 1 1 1 0 0 0 1 0 0 1 1 0 1 1 0 0 0 Max value: 23
+Max marking: 1 0 0 1 0 1 1 1 0 0 0 0 1 1 0 1 0 1 0 1 Max value: 21
+Max marking: 0 1 0 1 1 1 0 0 1 1 0 0 1 1 0 1 1 1 1 0 Max value: 36
+Max marking: 0 0 1 0 0 0 1 0 1 1 1 0 0 0 1 1 1 0 1 0 Max value: 19
+Max marking: 0 1 1 0 0 0 0 1 1 1 1 0 0 0 1 1 1 0 1 0 Max value: 23
+Max marking: 1 1 1 0 0 0 0 0 1 1 0 1 0 1 0 0 0 1 1 1 Max value: 25
+Max marking: 1 0 1 1 1 0 1 0 1 1 1 1 0 1 0 0 0 1 0 0 Max value: 34
+Max marking: 1 1 0 0 0 1 0 0 1 1 0 1 0 0 1 1 1 1 1 1 Max value: 44
+Max marking: 1 0 0 1 1 0 0 1 1 0 1 1 0 1 1 1 1 1 1 0 Max value: 40
+Max marking: 1 0 1 1 1 0 1 0 1 0 1 0 0 0 1 0 1 0 1 0 Max value: 27
+Max marking: 0 0 0 1 0 1 0 1 0 0 1 1 1 0 1 1 1 1 1 0 Max value: 32
+Max marking: 0 0 0 0 1 1 1 1 0 1 0 1 1 0 0 0 1 1 1 1 Max value: 33
+Max marking: 0 1 0 0 1 0 1 0 0 0 1 0 1 0 1 1 1 1 0 1 Max value: 20
+Max marking: 0 0 0 1 1 0 0 1 1 1 1 0 0 1 1 1 0 1 0 1 Max value: 24
+Max marking: 1 0 0 0 0 0 1 1 1 1 0 1 1 0 1 1 0 1 0 0 Max value: 32
+Max marking: 0 0 0 0 1 1 1 1 0 0 0 1 0 1 1 1 0 1 0 1 Max value: 24
+Max marking: 1 0 0 1 1 1 0 0 1 1 1 1 1 1 0 0 0 1 0 1 Max value: 33
+Max marking: 0 1 0 1 0 0 0 1 1 1 1 0 0 1 1 0 1 1 0 1 Max value: 25
+Max marking: 0 1 0 0 0 1 0 1 1 1 1 0 0 0 0 1 1 1 1 0 Max value: 20
+Max marking: 0 0 1 0 0 0 1 1 1 0 1 0 0 1 1 1 1 0 1 1 Max value: 19
+Max marking: 0 0 0 0 0 1 1 0 0 1 0 0 0 0 1 1 0 0 1 0 Max value: 22
+Max marking: 0 0 0 0 1 1 0 1 0 0 1 0 1 1 0 1 0 1 1 0 Max value: 23
+Max marking: 1 1 1 0 1 0 0 1 1 0 0 0 1 0 1 0 1 1 0 1 Max value: 24
+Max marking: 0 0 0 0 1 1 0 0 0 1 0 0 1 0 0 1 1 1 0 0 Max value: 16
+Max marking: 0 0 0 0 1 1 1 1 0 0 0 1 0 1 0 1 1 1 1 1 Max value: 23
+Max marking: 0 0 1 0 0 0 1 1 1 1 1 1 0 0 0 1 1 1 0 0 Max value: 23
+Max marking: 0 0 0 1 0 1 0 1 0 0 1 1 1 0 0 0 0 0 1 0 Max value: 8
+Max marking: 0 1 0 1 0 1 1 1 0 0 1 0 1 0 1 1 1 1 1 0 Max value: 33
+Max marking: 0 0 1 1 1 0 1 0 0 1 1 1 0 0 1 0 1 0 1 0 Max value: 34
+Max marking: 1 1 1 0 0 0 1 0 0 0 0 0 0 1 1 1 0 0 1 0 Max value: 16
+Max marking: 1 0 1 1 1 1 1 0 1 1 1 0 1 1 1 0 0 1 1 0 Max value: 38
+Max marking: 0 1 0 1 1 1 1 1 0 1 1 1 0 1 0 0 1 0 0 0 Max value: 19
+Max marking: 1 0 1 0 0 0 0 1 0 0 0 1 1 1 0 0 1 0 1 0 Max value: 17
+Max marking: 0 0 1 1 1 1 0 0 1 1 0 1 1 1 0 0 1 1 0 1 Max value: 27
+Max marking: 0 0 0 1 0 1 0 1 1 1 1 1 1 0 0 1 1 1 0 1 Max value: 34
+Max marking: 1 0 1 0 1 0 1 1 1 0 0 1 1 1 1 1 1 0 0 1 Max value: 34
+Max marking: 1 0 0 0 0 0 0 0 1 1 0 1 0 1 1 1 0 0 1 1 Max value: 22
+Max marking: 1 1 1 1 1 0 1 0 1 1 1 1 1 0 0 0 1 1 1 1 Max value: 33
+Max marking: 1 0 0 1 1 1 0 1 1 0 1 1 0 0 1 1 0 1 1 1 Max value: 35
+Max marking: 0 1 0 0 1 1 1 0 1 1 0 1 1 1 1 1 0 1 0 0 Max value: 23
+Max marking: 0 0 1 1 1 1 1 0 0 1 0 0 1 0 1 1 0 0 1 1 Max value: 40
+Max marking: 0 1 1 1 0 1 0 1 1 1 1 0 0 1 1 1 1 1 0 0 Max value: 30
+Max marking: 1 0 1 1 1 1 1 0 0 0 0 0 1 1 1 1 0 0 1 0 Max value: 28
+Max marking: 0 0 1 0 1 0 0 1 0 0 0 0 1 0 1 0 0 0 1 1 Max value: 19
+Max marking: 1 0 1 0 1 1 1 1 1 1 0 0 1 0 1 0 1 0 0 1 Max value: 29
+Max marking: 0 1 1 0 0 0 0 0 0 0 0 1 1 0 0 1 0 0 0 1 Max value: 15
+Max marking: 1 1 1 1 0 0 0 0 0 0 1 0 1 1 1 0 1 1 1 1 Max value: 33
+Max marking: 1 0 0 1 1 1 0 0 1 0 1 0 0 1 0 1 1 1 1 0 Max value: 30
+Max marking: 0 1 1 0 1 0 0 1 0 1 1 1 1 1 1 1 1 1 0 0 Max value: 39
+Max marking: 0 0 1 1 0 0 0 0 0 0 0 1 1 0 1 1 1 1 0 1 Max value: 32
+Max marking: 0 1 0 1 0 1 0 1 0 0 1 1 0 0 0 1 0 0 1 1 Max value: 14
+Max marking: 1 0 1 0 1 1 0 0 0 0 0 0 0 1 0 0 1 0 1 1 Max value: 13
+Max marking: 0 0 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 Max value: 31
+Max marking: 1 1 0 1 0 1 1 1 1 0 0 1 1 1 0 1 1 0 0 0 Max value: 35
+Max marking: 0 0 1 1 0 0 0 1 0 1 0 1 1 0 1 1 0 1 0 1 Max value: 31
+Max marking: 0 1 0 1 0 0 1 1 0 1 0 1 1 0 1 1 0 0 0 1 Max value: 25
+Max marking: 1 1 0 0 0 0 1 0 1 0 1 1 1 1 0 1 0 0 1 1 Max value: 22
+Max marking: 0 0 0 0 0 0 1 1 1 0 1 0 1 0 0 1 1 0 0 0 Max value: 22
+Max marking: 0 0 0 0 1 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 Max value: 18
+Max marking: 0 0 0 0 1 0 1 0 1 1 1 1 1 1 1 1 1 0 0 1 Max value: 33
+Max marking: 1 0 0 0 1 0 1 1 1 0 0 1 0 1 1 1 1 0 1 1 Max value: 24
+Max marking: 1 0 1 0 0 0 1 1 0 0 1 1 0 0 1 1 1 0 0 0 Max value: 18
+Max marking: 1 0 1 0 0 1 0 1 0 1 0 1 0 1 1 1 1 1 1 0 Max value: 32
+Max marking: 0 1 1 0 0 0 0 0 1 1 0 0 0 0 0 0 1 1 0 1 Max value: 22
+Max marking: 0 0 1 0 0 0 0 0 0 1 0 0 1 1 1 1 1 1 0 1 Max value: 28
+Max marking: 0 0 0 0 1 1 1 0 0 0 1 0 0 1 1 0 0 1 1 0 Max value: 14
+Max marking: 1 0 1 1 0 0 1 0 1 1 0 1 0 1 1 0 1 1 1 0 Max value: 22
+Max marking: 1 0 1 1 0 1 0 0 1 0 1 1 1 1 1 0 0 0 0 0 Max value: 28
+Max marking: 0 0 0 0 1 1 0 1 1 0 1 0 1 0 0 1 1 1 0 0 Max value: 18
+Max marking: 0 1 0 0 0 1 0 1 1 1 0 1 0 1 0 1 1 0 0 1 Max value: 23
+Max marking: 0 0 1 1 0 1 0 1 0 1 0 0 0 1 0 0 0 1 0 1 Max value: 14
+Max marking: 0 1 0 0 0 0 0 1 1 0 1 1 1 0 1 1 0 1 0 1 Max value: 30
+Max marking: 0 1 1 0 0 0 1 0 1 1 1 1 0 0 1 1 1 1 0 1 Max value: 29
+Max marking: 1 0 0 1 1 1 0 0 0 0 1 0 1 0 0 1 1 0 1 1 Max value: 33
+Max marking: 0 0 0 1 0 0 0 1 0 1 1 0 0 1 1 0 0 1 1 1 Max value: 28
+Max marking: 1 1 0 0 0 0 1 0 0 0 1 0 1 0 1 1 1 1 1 0 Max value: 20
+Max marking: 0 0 1 0 1 0 1 1 1 1 1 0 1 1 1 0 1 1 1 0 Max value: 28
+Max marking: 1 1 1 1 0 1 1 1 1 1 0 0 1 0 0 0 0 0 1 0 Max value: 23
+Max marking: 0 1 1 0 1 1 0 1 1 0 0 1 1 1 0 0 0 1 0 1 Max value: 22
+Max marking: 1 1 1 0 1 1 1 0 1 1 1 1 1 0 0 1 0 0 0 0 Max value: 25
+Max marking: 1 0 1 1 1 0 1 0 0 1 1 1 0 1 1 0 0 1 1 1 Max value: 49
+Max marking: 0 1 1 0 0 0 0 1 0 0 0 1 1 1 0 0 0 1 1 1 Max value: 18
+Max marking: 0 1 0 1 0 1 1 0 1 0 0 1 0 0 0 1 1 1 1 0 Max value: 25
+Max marking: 0 1 0 1 1 1 0 0 1 0 1 0 1 0 0 0 0 0 1 1 Max value: 26
+Max marking: 0 0 0 0 0 1 0 0 1 0 1 1 0 0 0 0 0 1 1 0 Max value: 16
+Max marking: 0 0 0 1 1 1 0 1 0 0 0 0 1 0 0 1 0 0 1 0 Max value: 15
+Max marking: 1 0 1 0 1 0 0 1 0 0 0 0 0 1 1 1 1 1 1 0 Max value: 26
+Max marking: 1 0 1 1 1 1 0 1 1 0 1 1 1 0 0 0 0 0 0 0 Max value: 25
+Max marking: 0 0 0 0 1 1 0 1 0 0 0 0 0 0 0 1 1 1 0 0 Max value: 11
+Max marking: 1 1 0 1 1 0 1 1 0 0 1 0 0 1 1 0 0 1 1 0 Max value: 36
+Max marking: 1 0 0 1 1 0 0 1 0 1 0 0 1 0 1 1 1 1 0 0 Max value: 18
+Max marking: 0 1 0 1 1 1 1 1 1 1 1 1 0 0 0 1 0 1 0 0 Max value: 29
+Max marking: 1 0 0 1 1 0 0 1 1 0 1 0 0 1 1 0 1 1 1 1 Max value: 31
+Max marking: 0 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 0 0 1 1 Max value: 38
+Max marking: 0 0 1 1 0 0 1 1 1 1 0 0 1 1 1 1 0 1 1 1 Max value: 42
+Max marking: 1 1 0 0 1 0 1 0 0 0 1 1 0 1 1 1 1 0 1 1 Max value: 37
+Max marking: 0 0 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 1 0 0 Max value: 36
+Max marking: 0 0 0 0 1 1 1 0 0 0 0 1 0 1 1 0 1 1 0 1 Max value: 25
+Max marking: 0 0 1 1 0 0 0 1 1 1 0 1 1 0 1 1 1 1 0 1 Max value: 35
+Max marking: 1 1 1 0 1 1 1 1 0 1 1 1 1 0 0 0 1 1 1 0 Max value: 33
+Max marking: 1 1 1 0 1 1 1 1 0 0 0 1 1 0 1 1 1 0 1 1 Max value: 32
+Max marking: 1 0 1 0 0 1 1 0 1 1 0 0 0 1 1 0 1 0 0 0 Max value: 32
+Max marking: 1 0 0 1 0 1 1 1 0 1 1 0 1 1 1 1 0 1 1 0 Max value: 37
+Max marking: 0 0 0 1 0 1 0 0 0 0 1 0 1 0 1 1 1 1 0 1 Max value: 21
+Max marking: 0 0 1 1 0 1 0 1 1 1 1 1 0 0 0 1 0 0 1 1 Max value: 36
+Max marking: 0 0 0 0 0 1 0 1 1 1 1 0 1 0 1 1 1 1 1 1 Max value: 33
+Max marking: 0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 1 1 0 0 Max value: 10
+Max marking: 0 1 1 0 1 1 1 0 0 0 1 0 0 0 1 1 0 0 0 1 Max value: 26
+Max marking: 0 1 0 1 0 0 0 1 0 0 1 1 1 0 1 0 0 0 1 1 Max value: 24
+Max marking: 1 1 1 0 0 1 1 0 1 1 1 0 1 1 1 0 1 1 0 0 Max value: 37
+Max marking: 1 1 1 1 0 1 0 1 1 1 1 0 1 0 1 1 0 1 1 0 Max value: 43
+Max marking: 1 1 1 0 1 0 1 1 1 0 0 1 1 0 0 1 1 0 0 1 Max value: 34
+Max marking: 0 1 0 1 1 1 0 0 0 1 0 1 1 1 0 1 0 0 1 0 Max value: 31
+Max marking: 1 1 0 0 0 1 0 0 1 0 1 1 1 1 1 1 1 1 1 0 Max value: 29
+Max marking: 1 1 0 1 0 0 0 1 1 0 0 1 0 0 0 1 0 1 0 0 Max value: 14
+Max marking: 1 0 0 0 0 1 1 0 1 1 1 1 0 0 0 1 0 0 1 0 Max value: 17
+Max marking: 0 1 1 1 0 0 0 0 1 1 0 1 0 0 0 1 1 0 0 0 Max value: 24
+Max marking: 0 1 0 0 1 1 1 1 0 1 1 0 0 0 1 0 1 0 1 0 Max value: 24
+Max marking: 0 0 1 0 0 1 1 1 1 1 1 0 0 1 0 1 1 1 0 0 Max value: 17
+Max marking: 0 0 0 1 1 1 1 1 0 0 0 0 0 1 1 1 0 1 1 0 Max value: 23
+Max marking: 1 0 0 0 1 1 1 0 0 0 1 1 1 1 1 1 0 1 0 0 Max value: 31
+Max marking: 0 1 0 0 1 1 1 0 1 1 1 0 1 1 0 1 1 1 1 0 Max value: 38
+Max marking: 1 0 0 1 1 1 1 0 0 1 0 0 0 1 0 0 1 0 0 0 Max value: 25
+Max marking: 0 1 1 1 1 0 1 0 0 0 1 1 0 1 1 1 1 0 1 1 Max value: 36
+Max marking: 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 1 0 1 Max value: 11
+Max marking: 0 1 0 1 0 1 0 0 1 1 0 1 0 1 1 1 0 1 0 1 Max value: 23
+Max marking: 0 0 1 1 0 1 1 0 0 0 0 0 0 0 1 1 1 1 0 0 Max value: 24
+Max marking: 1 1 1 0 0 0 0 1 1 1 0 1 0 0 0 0 1 0 1 0 Max value: 11
+Max marking: 1 0 0 1 0 1 1 1 1 1 0 0 0 1 0 0 0 0 1 0 Max value: 25
+Max marking: 1 1 1 0 0 1 0 0 1 0 1 1 0 1 1 1 0 1 1 0 Max value: 39
+Max marking: 0 1 1 1 0 1 0 0 0 0 0 0 1 1 1 1 0 0 0 1 Max value: 25
+Max marking: 0 1 0 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 0 Max value: 38
+Max marking: 0 1 0 1 1 1 0 0 0 0 1 0 1 1 1 1 1 1 1 0 Max value: 38
+Max marking: 0 0 0 0 0 1 1 0 1 1 0 1 0 1 1 0 1 1 0 0 Max value: 20
+Max marking: 0 0 0 0 1 1 0 0 0 0 0 1 1 1 0 0 0 1 1 1 Max value: 21
+Max marking: 1 0 1 0 0 1 1 1 0 1 1 1 0 0 1 0 0 1 1 1 Max value: 27
+Max marking: 0 0 0 0 1 1 1 1 0 1 0 0 0 1 0 0 1 1 1 0 Max value: 18
+Max marking: 0 0 0 1 0 1 1 0 1 1 0 0 0 0 0 1 1 0 0 1 Max value: 23
+Max marking: 0 0 0 1 0 0 0 0 0 1 0 0 1 1 0 0 0 1 1 0 Max value: 15
+Max marking: 1 0 1 1 1 1 1 1 0 1 1 1 1 0 1 1 0 0 1 0 Max value: 33
+Max marking: 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 1 1 1 0 1 Max value: 28
+Max marking: 1 0 0 0 0 0 0 1 0 0 0 1 1 0 1 1 1 0 0 0 Max value: 16
+Max marking: 1 0 1 1 1 0 1 0 0 1 0 1 1 0 1 1 0 1 0 1 Max value: 30
+Max marking: 0 0 1 1 1 1 0 0 0 1 1 1 1 1 0 1 1 1 1 1 Max value: 33
+Max marking: 0 0 0 1 1 0 1 1 1 1 1 0 1 1 0 0 0 0 1 1 Max value: 27
+Max marking: 0 1 0 0 0 1 1 0 1 1 0 1 1 0 0 1 0 1 0 1 Max value: 25
+Max marking: 1 1 0 1 0 1 0 0 1 0 0 1 0 1 0 0 0 0 0 0 Max value: 15
+Max marking: 1 0 1 0 1 0 1 0 1 1 0 1 1 1 1 1 1 1 1 1 Max value: 44
+Max marking: 0 0 0 0 0 1 1 0 1 1 0 0 1 1 0 0 0 1 1 0 Max value: 19
+Max marking: 0 1 0 1 0 1 0 0 0 1 1 1 1 1 0 0 1 0 1 1 Max value: 25
+Max marking: 0 1 1 0 1 0 0 0 0 1 0 1 1 1 1 0 0 1 1 0 Max value: 30
+Max marking: 1 1 0 0 1 0 1 1 1 1 0 1 1 1 0 0 0 1 0 1 Max value: 13
+Max marking: 1 0 1 0 1 0 1 1 1 1 0 1 0 0 1 0 0 1 1 0 Max value: 25
+Max marking: 1 1 0 1 1 0 1 1 0 0 0 1 1 0 1 0 1 1 1 1 Max value: 32
+Max marking: 1 1 1 1 0 0 1 1 1 0 0 1 0 0 1 0 1 1 1 1 Max value: 46
+Max marking: 0 0 0 1 0 0 0 0 1 0 1 1 1 1 0 1 1 0 1 1 Max value: 27
+Max marking: 1 1 1 0 1 1 0 0 1 1 1 0 1 0 1 0 0 0 1 1 Max value: 20
+Max marking: 0 1 0 1 1 0 0 0 0 1 0 1 1 1 0 0 1 1 1 1 Max value: 30
+Max marking: 1 1 0 0 1 1 0 1 0 1 0 1 1 1 0 0 1 1 0 1 Max value: 32
+Max marking: 0 0 1 1 1 1 1 0 0 0 1 1 1 0 1 1 0 0 1 0 Max value: 30
+Max marking: 0 0 0 1 0 1 1 0 1 0 1 0 0 1 1 1 1 1 1 0 Max value: 21
+Max marking: 1 0 0 1 1 1 1 0 0 0 1 0 0 0 0 1 1 0 1 1 Max value: 33
+Max marking: 1 1 1 1 1 0 1 1 0 1 0 1 0 0 0 0 1 0 1 1 Max value: 22
+Max marking: 0 1 1 0 0 0 1 0 1 0 1 1 0 1 0 0 0 1 1 0 Max value: 15
+Max marking: 1 0 1 1 1 0 0 0 1 1 1 1 0 0 1 1 0 1 0 1 Max value: 26
+Max marking: 0 0 0 0 0 1 1 0 1 0 1 0 0 0 1 0 0 1 1 0 Max value: 13
+Max marking: 0 0 1 0 0 0 1 0 0 0 0 0 0 1 1 1 1 0 0 1 Max value: 21
+Max marking: 0 0 0 0 0 0 0 1 0 0 1 0 1 1 1 0 1 1 1 0 Max value: 19
+Max marking: 0 1 0 0 1 0 0 0 1 0 0 1 0 1 0 1 1 1 1 1 Max value: 19
+Max marking: 1 0 1 1 1 0 0 1 0 0 1 1 1 1 1 0 0 1 1 0 Max value: 27
+Max marking: 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 Max value: 13
+Max marking: 1 0 1 0 1 0 1 0 0 0 1 1 0 0 1 0 1 0 1 0 Max value: 26
+Max marking: 1 0 1 1 1 0 0 1 0 0 1 0 1 1 0 1 0 1 0 1 Max value: 30
+Max marking: 1 0 0 1 0 1 1 0 0 1 1 1 1 0 1 0 1 1 1 0 Max value: 28
+Max marking: 0 1 0 1 0 0 1 1 1 1 0 1 1 0 1 1 0 1 0 0 Max value: 16
+Max marking: 0 0 0 0 0 1 0 1 1 0 1 1 0 1 0 1 1 1 1 1 Max value: 23
+Max marking: 1 1 1 1 1 0 0 1 0 1 0 1 1 0 1 1 1 1 1 0 Max value: 37
+Max marking: 0 0 1 1 1 0 0 0 1 1 0 1 0 1 1 1 0 1 1 0 Max value: 23
+Max marking: 0 0 0 0 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 0 Max value: 17
+Max marking: 1 1 0 1 1 1 0 1 1 1 1 0 1 0 1 1 0 0 1 0 Max value: 38
+Max marking: 0 1 1 1 0 1 1 1 0 0 0 1 0 0 0 1 0 1 1 1 Max value: 31
+Max marking: 1 1 0 0 1 1 1 0 1 0 1 1 0 0 1 1 0 0 1 0 Max value: 36
+Max marking: 0 1 0 1 0 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 Max value: 33
+Max marking: 1 1 0 0 0 0 0 1 0 0 1 0 0 1 1 1 1 0 0 1 Max value: 28
+Max marking: 0 1 0 0 1 1 0 0 1 0 0 1 0 1 0 1 1 1 0 0 Max value: 23
+Max marking: 1 0 0 1 0 0 1 0 0 1 0 0 0 1 1 0 1 0 1 1 Max value: 27
+Max marking: 0 0 1 1 0 1 1 0 1 1 0 1 1 1 0 1 1 1 1 0 Max value: 38
+Max marking: 0 1 1 0 0 1 0 1 1 0 0 0 1 0 1 0 1 1 0 1 Max value: 25
+Max marking: 0 0 1 1 1 1 1 1 1 1 1 0 0 0 1 0 0 0 0 0 Max value: 31
+Max marking: 0 0 0 0 1 1 1 0 0 1 1 0 0 0 0 1 0 1 0 1 Max value: 21
+Max marking: 0 0 0 1 0 1 0 1 1 0 0 0 1 1 1 1 1 1 1 0 Max value: 25
+Max marking: 1 0 1 0 1 1 0 0 1 1 0 1 0 1 1 1 0 1 1 1 Max value: 38
+Max marking: 1 0 0 0 0 0 1 0 1 0 0 0 1 0 1 0 1 1 1 1 Max value: 24
+Max marking: 0 1 1 1 0 0 1 1 0 0 1 0 1 0 1 1 0 0 0 0 Max value: 20
+Max marking: 1 1 0 1 0 0 1 1 1 1 1 0 1 0 1 1 0 1 1 1 Max value: 25
+Max marking: 0 1 1 0 1 0 1 1 0 0 1 1 1 1 1 1 0 0 0 0 Max value: 28
+Max marking: 0 0 0 0 0 0 1 1 1 0 0 1 1 1 0 0 1 1 1 1 Max value: 23
+Max marking: 0 1 0 1 0 0 0 0 1 0 1 1 1 1 1 1 1 1 1 1 Max value: 33
+Max marking: 0 0 0 1 1 0 0 0 1 1 1 0 1 0 1 1 0 0 0 1 Max value: 27
+Max marking: 0 1 0 1 0 1 0 1 1 1 1 0 0 1 0 0 1 0 0 0 Max value: 22
+Max marking: 0 1 0 1 0 1 1 1 0 0 0 1 1 0 0 0 1 1 0 0 Max value: 22
+Max marking: 0 1 1 1 1 1 1 1 0 1 0 1 1 0 0 1 1 1 0 1 Max value: 28
+Max marking: 0 0 0 1 1 0 0 1 0 0 0 1 1 0 1 1 1 1 0 1 Max value: 40
+Max marking: 0 0 1 0 1 1 1 1 1 0 0 0 1 0 1 1 1 0 0 0 Max value: 25
+Max marking: 0 1 1 0 1 1 0 1 0 1 1 1 0 0 1 0 1 1 1 0 Max value: 32
+Max marking: 0 0 0 1 0 0 1 1 0 0 0 1 1 1 1 0 0 0 0 0 Max value: 17
+Max marking: 1 0 1 0 1 0 0 1 0 1 1 0 1 1 0 1 0 0 1 0 Max value: 26
+Max marking: 0 0 1 1 1 1 1 1 1 0 0 0 1 1 1 0 0 1 1 1 Max value: 25
+Max marking: 1 0 0 0 1 1 0 1 1 1 1 1 0 0 0 1 1 1 1 0 Max value: 16
+Max marking: 0 1 0 1 1 1 0 0 1 1 0 1 0 1 0 0 1 0 0 0 Max value: 20
+Max marking: 1 0 0 0 1 1 0 1 0 0 1 1 1 0 1 1 0 0 0 0 Max value: 26
+Max marking: 0 1 1 0 1 0 1 1 1 0 0 0 1 1 1 0 1 0 1 1 Max value: 38
+Max marking: 1 0 1 1 1 1 0 1 0 1 0 1 1 1 0 0 0 1 1 0 Max value: 33
+Max marking: 0 0 0 0 0 1 0 1 1 0 0 1 1 1 0 0 0 0 1 1 Max value: 21
+Max marking: 0 1 0 0 1 0 1 0 1 1 1 1 0 0 1 1 0 0 0 1 Max value: 24
+Max marking: 1 1 1 1 1 0 0 1 0 1 1 1 1 1 0 1 0 1 0 0 Max value: 40
+Max marking: 1 0 0 1 0 1 0 0 0 0 1 1 1 1 1 0 1 1 1 1 Max value: 37
+Max marking: 1 1 1 0 1 0 1 0 0 1 1 1 1 1 0 0 1 1 1 1 Max value: 42
+Max marking: 0 1 0 1 1 0 0 0 0 0 1 1 0 0 0 1 1 1 1 0 Max value: 28
+Max marking: 1 1 1 1 0 0 1 0 1 1 1 1 1 0 1 1 1 0 1 1 Max value: 41
+Max marking: 0 0 1 0 1 1 0 1 0 1 0 0 1 1 0 0 1 1 1 1 Max value: 33
+Max marking: 0 0 0 1 1 0 0 1 1 0 1 0 1 0 1 0 1 1 0 1 Max value: 20
+Max marking: 0 1 0 1 1 0 1 0 1 0 0 0 1 0 1 1 1 1 1 1 Max value: 42
+Max marking: 1 1 1 1 1 0 1 0 0 0 0 1 1 1 0 0 1 1 0 0 Max value: 36
+Max marking: 1 1 1 1 1 1 0 1 1 0 1 1 1 1 0 1 1 1 1 0 Max value: 50
+Max marking: 1 1 0 1 0 0 1 0 1 0 1 0 1 1 1 1 0 0 1 1 Max value: 29
+Max marking: 0 0 1 1 0 0 0 1 1 0 1 1 0 1 0 0 0 0 0 0 Max value: 27
+Max marking: 1 0 0 0 1 1 0 0 1 1 1 0 0 0 1 0 1 1 1 1 Max value: 32
+Max marking: 1 1 0 1 0 1 1 1 1 0 1 0 1 0 1 1 0 1 1 1 Max value: 40
+Max marking: 1 0 0 0 0 1 0 1 0 1 0 1 0 0 0 0 0 0 1 0 Max value: 22
+Max marking: 0 0 0 1 1 1 0 1 0 1 1 1 0 1 0 1 0 0 1 1 Max value: 22
+Max marking: 0 1 0 0 0 1 0 0 1 0 1 0 1 1 1 0 0 1 0 0 Max value: 17
+Max marking: 1 1 0 1 1 1 1 0 0 1 1 1 0 0 1 1 1 1 0 0 Max value: 37
+Max marking: 0 0 1 0 0 1 1 0 0 0 1 0 1 1 0 0 1 0 1 0 Max value: 13
+Max marking: 1 0 1 0 0 1 0 1 0 1 0 1 1 1 1 1 0 0 1 1 Max value: 21
+Max marking: 0 0 1 0 0 1 0 1 1 1 0 0 1 1 1 1 0 0 0 0 Max value: 19
+Max marking: 0 1 1 1 0 1 0 1 0 1 0 0 0 1 0 1 1 0 0 0 Max value: 35
+Max marking: 0 0 1 1 0 1 1 1 1 1 0 1 1 1 1 0 1 1 1 1 Max value: 35
+Max marking: 0 0 1 1 1 1 1 0 1 0 0 0 0 1 0 1 0 0 1 0 Max value: 23
+Max marking: 0 0 0 1 1 1 1 1 1 1 1 0 0 1 0 1 0 0 0 0 Max value: 24
+Max marking: 1 1 0 0 1 0 0 1 1 1 0 0 1 1 1 0 1 1 1 1 Max value: 28
+Max marking: 1 0 1 1 1 0 0 1 0 1 0 0 1 0 0 1 0 1 0 0 Max value: 19
+Max marking: 0 1 1 0 0 1 1 1 1 0 1 1 0 1 1 0 1 1 1 1 Max value: 21
+Max marking: 0 0 0 0 0 1 0 1 1 1 1 1 1 1 0 1 0 1 0 0 Max value: 22
+Max marking: 1 0 1 0 1 0 1 1 0 1 1 0 0 1 0 1 0 1 0 0 Max value: 20
+Max marking: 1 1 0 1 1 0 1 0 0 1 1 1 1 0 1 0 1 0 0 0 Max value: 30
+Max marking: 1 1 0 1 0 1 1 0 1 1 1 0 0 1 0 1 0 1 1 1 Max value: 33
+Max marking: 1 1 1 1 1 0 1 1 0 1 1 1 1 1 0 1 0 1 1 1 Max value: 33
+Max marking: 0 1 0 0 0 0 1 0 1 1 1 0 0 0 1 1 1 1 0 1 Max value: 29
+Max marking: 0 1 1 0 1 1 1 0 1 1 0 1 0 0 1 1 1 1 0 1 Max value: 40
+Max marking: 0 0 1 1 0 0 0 0 1 0 1 1 1 1 0 0 1 1 1 0 Max value: 27
+Max marking: 1 1 1 0 0 1 1 1 0 0 0 1 1 1 1 0 0 1 0 0 Max value: 26
+Max marking: 1 0 1 1 0 0 1 1 1 1 1 0 1 1 1 1 1 0 1 1 Max value: 39
+Max marking: 0 0 1 0 0 1 0 1 1 1 1 1 0 0 1 1 1 1 0 1 Max value: 35
+Max marking: 0 0 0 0 1 0 0 1 1 0 1 0 1 0 1 1 0 0 1 1 Max value: 22
+Max marking: 1 0 1 1 1 0 1 1 0 0 0 1 1 0 1 1 0 0 1 0 Max value: 26
+Max marking: 0 0 0 1 0 1 0 1 1 1 1 1 1 0 0 1 1 0 0 1 Max value: 24
+Max marking: 1 1 0 1 0 1 1 1 0 1 1 0 0 1 1 0 0 0 1 0 Max value: 30
+Max marking: 1 1 0 1 0 1 1 0 1 0 1 0 0 1 1 0 1 0 0 1 Max value: 36
+Max marking: 0 0 0 1 1 1 1 0 1 1 0 0 1 1 0 0 0 0 0 0 Max value: 19
+Max marking: 1 0 1 0 0 0 1 1 0 1 1 1 1 1 0 0 1 0 0 1 Max value: 22
+Max marking: 0 0 1 1 0 0 0 1 0 1 0 0 1 1 0 1 1 1 0 0 Max value: 24
+Max marking: 1 0 1 0 1 0 1 1 1 1 1 1 1 1 0 0 0 1 0 1 Max value: 29
+Max marking: 0 0 0 1 0 0 0 1 1 1 0 1 1 1 1 1 1 1 0 0 Max value: 33
+Max marking: 0 1 0 0 1 0 0 1 0 0 1 1 1 0 0 0 0 0 0 0 Max value: 21
+Max marking: 0 0 0 0 1 1 0 1 1 0 1 0 0 0 0 1 1 0 0 0 Max value: 15
+Max marking: 1 1 0 0 0 1 0 1 1 0 0 1 1 0 0 1 1 0 1 0 Max value: 26
+Max marking: 1 0 1 0 1 1 1 1 0 0 0 0 0 1 1 0 1 0 1 0 Max value: 25
+Max marking: 0 0 0 1 1 0 0 0 1 1 1 1 1 1 1 1 0 1 0 0 Max value: 32
+Max marking: 0 0 0 0 0 0 1 0 0 1 1 1 1 0 1 0 1 0 0 0 Max value: 19
+Max marking: 0 0 1 0 1 0 1 1 1 1 0 1 0 0 0 1 1 0 0 1 Max value: 28
+Max marking: 1 0 0 0 1 1 1 1 0 1 0 1 1 1 1 1 0 0 1 0 Max value: 22
+Max marking: 0 0 0 0 0 1 0 0 0 0 0 0 1 1 0 1 0 1 0 1 Max value: 18
+Max marking: 1 1 1 1 1 1 0 0 1 1 1 1 1 0 0 1 1 0 1 0 Max value: 40
+Max marking: 0 0 0 1 0 0 1 1 1 1 0 0 1 1 0 1 1 0 0 1 Max value: 15
+Max marking: 0 0 0 1 1 0 1 1 1 0 1 0 0 1 0 0 1 0 1 0 Max value: 22
+Max marking: 0 0 0 1 1 1 0 1 1 0 1 0 0 1 0 0 0 1 1 0 Max value: 19
+Max marking: 0 0 1 1 0 1 1 1 0 1 1 1 1 0 0 1 1 1 0 1 Max value: 44
+Max marking: 0 1 0 0 0 0 1 1 1 0 1 1 1 1 1 0 1 1 1 0 Max value: 42
+Max marking: 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 1 1 1 0 0 Max value: 58
+Max marking: 1 0 1 0 1 1 1 0 0 1 1 0 1 1 1 0 0 1 0 1 Max value: 34
+Max marking: 1 0 0 1 1 0 0 0 1 1 1 1 0 0 1 1 0 1 1 0 Max value: 29
+Max marking: 1 1 1 1 1 1 0 0 1 1 1 1 0 0 0 0 0 1 1 1 Max value: 32
+Max marking: 0 0 0 1 0 1 1 0 0 1 1 0 1 0 0 0 0 0 1 1 Max value: 22
+Max marking: 1 0 0 1 0 0 1 0 1 1 0 0 1 1 0 1 1 0 1 0 Max value: 33
+Max marking: 0 0 0 1 0 1 0 1 1 0 1 1 1 1 0 0 0 1 0 1 Max value: 32
+Max marking: 0 1 1 0 0 0 0 0 1 0 0 1 0 1 1 0 0 0 0 0 Max value: 13
+Max marking: 0 1 1 0 0 0 1 0 0 1 1 0 0 1 1 0 1 0 1 1 Max value: 29
+Max marking: 0 0 1 0 0 0 0 1 0 1 1 0 1 0 1 0 1 0 1 0 Max value: 21
+Max marking: 1 0 0 1 0 1 1 1 1 0 1 1 0 0 1 1 1 1 0 1 Max value: 38
+Max marking: 0 0 0 1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 0 0 Max value: 33
+Max marking: 0 1 1 0 0 0 0 1 1 0 1 0 1 1 1 1 0 1 0 1 Max value: 36
+Max marking: 1 0 1 1 0 0 0 0 0 1 0 1 1 1 1 1 1 0 0 0 Max value: 17
+Max marking: 0 1 1 1 0 0 0 0 1 1 1 0 1 0 0 1 1 0 1 1 Max value: 36
+Max marking: 1 0 1 1 1 1 1 1 0 1 0 0 1 0 1 0 1 1 0 0 Max value: 29
+Max marking: 1 1 0 1 1 0 0 1 1 1 1 1 1 0 1 1 1 0 0 0 Max value: 40
+Max marking: 1 0 0 0 0 0 1 1 0 0 1 1 1 1 1 1 1 0 0 1 Max value: 23
+Max marking: 0 0 1 1 1 0 0 0 1 1 1 0 0 1 1 0 0 1 1 1 Max value: 18
+Max marking: 0 0 0 0 0 1 0 0 1 0 1 0 1 1 0 0 0 1 1 1 Max value: 16
+Max marking: 1 0 1 1 1 1 0 0 1 1 1 0 0 0 0 1 1 1 0 1 Max value: 23
+Max marking: 0 1 1 1 0 1 0 1 1 0 0 1 1 0 1 1 0 0 0 1 Max value: 35
+Max marking: 1 0 0 1 0 0 0 1 0 0 0 0 0 1 0 1 1 1 0 0 Max value: 16
+Max marking: 1 1 0 1 1 0 1 0 1 1 1 1 1 0 1 0 1 1 1 1 Max value: 25
+Max marking: 1 1 0 1 0 1 1 0 0 1 1 0 0 0 1 1 1 1 1 1 Max value: 32
+Max marking: 1 1 0 0 0 0 1 1 0 1 1 1 0 0 0 1 1 0 0 1 Max value: 29
+Max marking: 0 1 1 0 0 0 1 0 1 0 1 0 1 1 0 1 1 0 1 1 Max value: 24
+Max marking: 0 0 1 1 0 1 0 0 0 0 1 1 1 1 1 1 0 1 1 0 Max value: 28
+Max marking: 1 1 1 1 0 1 1 0 1 0 0 0 1 0 0 1 1 1 1 0 Max value: 27
+Max marking: 0 0 0 0 0 1 1 0 0 1 1 1 1 1 0 1 0 1 0 1 Max value: 29
+Max marking: 1 1 1 1 0 0 0 0 0 1 1 1 0 1 1 0 0 0 0 0 Max value: 16
+Max marking: 0 0 1 0 0 1 1 1 1 0 0 1 1 0 1 1 0 0 0 0 Max value: 32
+Max marking: 1 1 0 0 0 1 1 1 0 1 0 1 1 1 0 1 0 1 0 0 Max value: 35
+Max marking: 0 1 0 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 0 1 Max value: 34
+Max marking: 0 0 1 0 0 1 1 1 0 1 0 1 1 0 1 1 0 1 0 1 Max value: 26
+Max marking: 1 1 1 0 0 1 1 1 0 1 0 0 1 0 1 0 0 1 1 0 Max value: 24
+Max marking: 0 0 1 1 1 1 1 1 1 1 1 0 0 1 0 1 1 1 0 0 Max value: 28
+Max marking: 0 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 0 0 1 Max value: 36
+Max marking: 0 0 0 0 0 0 1 1 0 1 0 1 1 0 1 0 0 1 0 0 Max value: 23
+Max marking: 0 1 1 0 0 0 1 1 1 0 0 0 0 0 1 0 0 1 1 0 Max value: 15
+Max marking: 1 1 1 1 1 0 0 1 0 1 1 0 1 0 1 0 0 1 0 0 Max value: 27
+Max marking: 1 0 0 0 1 0 0 1 0 0 0 1 1 0 1 0 1 0 1 0 Max value: 21
+Max marking: 0 0 1 1 1 1 1 0 0 1 0 0 0 0 0 0 1 1 0 0 Max value: 21
+Max marking: 1 0 0 1 1 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 Max value: 27
+Max marking: 1 0 1 1 1 0 0 1 1 1 1 1 1 1 0 1 0 0 1 0 Max value: 40
+Max marking: 1 1 1 0 1 0 1 1 0 1 0 1 1 0 1 0 0 1 0 1 Max value: 34
+Max marking: 0 1 0 0 1 0 0 1 0 1 0 1 0 0 1 0 1 0 0 0 Max value: 24
+Max marking: 0 1 1 1 1 1 1 0 1 0 1 0 1 0 0 0 0 0 0 1 Max value: 24
+Max marking: 0 0 0 1 0 0 0 1 0 1 1 0 1 0 0 1 0 0 1 1 Max value: 22
+Max marking: 0 0 1 0 0 1 1 0 0 1 1 1 1 0 1 1 0 1 0 1 Max value: 28
+Max marking: 1 1 1 0 0 1 1 1 1 1 1 1 1 0 0 0 1 1 0 1 Max value: 43
+Max marking: 1 1 0 0 1 1 0 1 1 0 0 1 1 1 0 0 0 0 0 1 Max value: 22
+Max marking: 0 0 0 1 1 0 0 1 0 1 0 1 0 0 1 0 1 0 1 1 Max value: 25
+Max marking: 0 0 1 0 0 1 0 1 1 0 1 1 0 1 0 1 1 1 0 1 Max value: 35
+Max marking: 1 1 0 1 0 0 1 1 0 1 1 0 1 1 0 1 0 0 1 1 Max value: 31
+Max marking: 0 1 1 1 1 1 0 1 1 0 1 0 0 0 1 1 1 0 0 0 Max value: 20
+Max marking: 0 1 0 0 0 0 1 1 0 0 1 1 1 0 1 0 0 1 1 1 Max value: 29
+Max marking: 0 0 1 1 1 1 1 1 0 1 0 0 0 1 1 1 1 0 1 1 Max value: 21
+Max marking: 1 0 0 0 1 1 0 1 1 0 0 1 0 1 0 1 1 0 0 1 Max value: 24
+Max marking: 1 1 1 0 1 1 0 1 0 0 1 0 1 0 1 1 1 1 1 0 Max value: 31
+Max marking: 0 0 0 1 1 0 1 0 1 0 1 1 1 0 1 0 0 1 1 0 Max value: 24
+Max marking: 0 1 1 1 0 1 1 1 0 0 0 1 1 1 0 1 0 0 1 1 Max value: 37
+Max marking: 0 1 0 1 1 0 0 1 0 1 0 0 0 1 1 1 1 1 1 0 Max value: 32
+Max marking: 0 1 0 1 0 1 1 1 1 0 1 0 0 1 0 1 0 1 0 1 Max value: 27
+Max marking: 0 1 1 0 0 0 0 1 1 0 1 0 0 0 0 1 0 1 0 0 Max value: 25
+Max marking: 0 1 1 0 1 0 1 1 0 1 1 1 1 0 1 1 1 1 1 1 Max value: 40
+Max marking: 1 0 1 1 0 1 0 1 0 1 1 1 0 1 1 0 1 1 1 0 Max value: 27
+Max marking: 0 1 1 0 1 1 0 1 0 1 1 0 0 0 1 0 0 1 1 1 Max value: 24
+Max marking: 1 0 0 1 0 0 0 1 1 0 1 1 1 0 0 0 1 1 1 1 Max value: 27
+Max marking: 0 1 0 1 1 1 1 0 1 0 1 0 0 1 1 0 1 1 1 0 Max value: 31
+Max marking: 0 1 1 0 1 0 0 1 0 0 1 1 1 1 0 0 1 0 0 0 Max value: 26
+Max marking: 0 0 0 0 1 1 0 1 0 1 0 1 1 0 1 1 1 1 0 0 Max value: 28
+Max marking: 0 1 1 0 1 0 0 0 0 1 1 0 1 0 0 1 1 0 0 0 Max value: 15
+Max marking: 1 1 0 0 1 1 0 1 0 1 1 1 1 1 1 0 1 0 1 0 Max value: 29
+Max marking: 0 1 1 1 1 0 0 1 0 1 0 1 1 1 1 0 1 1 0 1 Max value: 25
+Max marking: 0 0 0 1 1 0 1 0 1 0 1 1 1 0 1 1 1 0 1 1 Max value: 37
+Max marking: 0 0 0 1 1 1 0 0 1 1 0 0 1 1 0 0 1 1 0 1 Max value: 30
+Max marking: 1 0 0 1 0 1 1 1 1 1 1 0 1 0 0 1 1 0 0 1 Max value: 26
+Max marking: 1 0 1 0 0 1 1 0 1 1 1 0 0 1 0 1 0 0 0 0 Max value: 29
+Max marking: 1 0 1 0 1 1 0 1 0 0 1 1 0 1 0 0 1 0 0 0 Max value: 18
+Max marking: 1 1 0 1 0 0 1 0 0 1 0 0 0 0 1 1 0 0 0 1 Max value: 19
+Max marking: 0 0 1 1 1 1 0 1 0 1 0 1 1 0 0 1 0 1 1 1 Max value: 26
+Max marking: 1 1 0 1 0 0 0 1 0 1 1 0 0 1 1 0 0 1 1 1 Max value: 26
+Max marking: 0 0 1 1 0 1 0 1 1 1 1 1 1 0 1 1 1 0 1 0 Max value: 44
+Max marking: 1 1 0 1 1 1 1 0 1 1 0 1 1 1 1 1 1 1 1 1 Max value: 50
+Max marking: 1 1 0 1 1 1 1 1 1 1 1 1 0 1 1 0 0 1 1 0 Max value: 44
+Max marking: 0 1 1 1 1 0 0 1 0 1 0 1 1 1 1 1 0 0 1 0 Max value: 35
+Max marking: 0 0 0 1 0 1 0 1 1 0 1 0 1 0 0 0 1 1 1 1 Max value: 33
+Max marking: 0 1 0 0 1 0 0 0 1 0 0 1 0 0 0 0 1 1 1 1 Max value: 26
+Max marking: 0 1 1 0 0 1 0 1 1 1 1 1 1 1 1 1 0 0 1 1 Max value: 50
+Max marking: 1 0 0 1 0 1 0 0 1 1 0 1 1 1 0 1 1 1 1 1 Max value: 41
+Max marking: 1 1 1 0 1 0 1 0 1 0 0 1 0 0 0 1 0 1 0 1 Max value: 26
+Max marking: 1 1 1 1 1 0 0 1 1 1 0 0 0 0 0 1 1 0 0 1 Max value: 41
+Max marking: 1 0 0 1 1 1 1 1 1 1 1 0 1 0 0 1 0 0 0 1 Max value: 35
+Max marking: 1 0 0 0 1 0 1 0 1 1 1 1 1 1 1 0 0 1 1 1 Max value: 35
+Max marking: 0 0 1 0 1 0 0 0 1 0 1 0 1 0 1 1 1 0 1 1 Max value: 25
+Max marking: 1 0 1 0 0 0 1 1 0 1 1 1 0 0 0 0 0 0 1 1 Max value: 23
+Max marking: 0 1 1 1 0 0 1 0 1 0 1 0 1 1 0 1 0 1 0 0 Max value: 27
+Max marking: 0 0 0 1 0 1 0 1 1 0 0 0 0 1 1 1 1 0 1 1 Max value: 23
+Max marking: 1 1 0 1 0 0 0 1 0 0 1 1 1 1 1 1 1 0 0 0 Max value: 28
+Max marking: 0 0 1 0 1 0 0 1 1 0 0 0 0 0 0 1 0 1 1 0 Max value: 12
+Max marking: 0 1 0 1 0 1 0 0 0 0 1 1 1 0 0 1 0 1 1 1 Max value: 24
+Max marking: 0 1 0 1 0 0 0 1 1 0 1 1 1 0 0 0 1 1 0 0 Max value: 29
+Max marking: 1 1 1 1 0 1 0 0 1 0 0 1 0 0 1 0 1 1 0 1 Max value: 33
+Max marking: 1 0 1 0 0 1 0 0 0 1 1 0 1 1 0 0 0 0 1 1 Max value: 13
+Max marking: 0 1 1 0 0 1 0 1 0 1 1 0 0 1 1 1 1 0 0 1 Max value: 20
+Max marking: 1 1 1 1 1 1 1 1 0 0 0 1 1 1 0 0 0 1 0 1 Max value: 37
+Max marking: 0 1 0 1 1 1 0 0 1 0 0 1 0 1 1 1 0 0 1 0 Max value: 25
+Max marking: 0 1 0 0 0 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 Max value: 23
+Max marking: 1 0 1 0 1 1 0 1 0 1 1 1 0 1 1 0 1 0 0 0 Max value: 16
+Max marking: 0 0 1 0 1 1 0 1 0 0 0 1 1 0 1 1 0 1 0 1 Max value: 25
+Max marking: 0 1 0 0 0 1 1 1 1 1 1 1 0 0 1 0 0 0 1 1 Max value: 25
+Max marking: 1 0 1 0 1 1 1 0 1 1 0 0 0 1 0 0 0 1 1 0 Max value: 32
+Max marking: 1 0 0 0 0 0 0 1 1 0 1 1 0 0 0 1 0 0 0 1 Max value: 7
+Max marking: 0 1 1 1 0 0 0 0 0 0 0 0 1 0 0 1 1 0 1 0 Max value: 26
+Max marking: 1 0 0 1 1 1 1 1 0 0 1 0 0 1 0 0 1 1 1 0 Max value: 41
+Max marking: 1 0 1 1 1 1 1 0 0 1 1 0 1 1 0 0 0 1 1 0 Max value: 32
+Max marking: 0 1 0 0 0 0 1 1 0 1 0 1 1 1 1 1 1 1 1 1 Max value: 32
+Max marking: 1 1 0 1 0 0 0 0 0 1 1 0 0 1 1 1 1 1 1 1 Max value: 22
+Max marking: 1 1 1 0 1 0 0 0 0 1 1 1 1 1 0 1 0 1 0 0 Max value: 27
+Max marking: 1 1 1 1 0 0 0 1 0 1 1 1 0 1 0 0 0 1 0 1 Max value: 32
+Max marking: 0 0 1 0 1 1 1 1 1 0 1 0 0 0 1 1 1 1 0 0 Max value: 30
+Max marking: 1 1 0 0 1 1 1 0 0 1 1 0 0 0 1 0 0 1 1 0 Max value: 23
+Max marking: 0 1 0 0 0 1 1 1 1 1 1 0 1 0 1 0 0 1 0 0 Max value: 21
+Max marking: 0 0 1 1 0 1 1 1 0 0 0 1 1 0 1 1 1 1 1 0 Max value: 25
+Max marking: 0 1 0 0 0 0 0 1 1 1 1 1 0 1 0 1 0 1 0 1 Max value: 38
+Max marking: 1 1 1 0 1 1 1 1 0 0 1 1 1 1 0 0 1 1 0 1 Max value: 33
+Max marking: 0 0 0 0 0 0 1 0 0 1 1 0 1 0 1 1 0 1 0 0 Max value: 21
+Max marking: 0 0 0 0 1 0 1 0 0 1 1 0 1 0 1 0 0 0 0 1 Max value: 15
+Max marking: 0 1 0 1 1 1 1 0 1 0 0 1 0 1 0 1 0 0 1 0 Max value: 15
+Max marking: 1 0 0 1 1 1 0 1 0 1 0 0 0 1 0 1 1 0 0 1 Max value: 21
+Max marking: 0 1 0 0 0 0 0 0 1 0 0 0 1 1 1 1 1 0 0 1 Max value: 24
+Max marking: 0 0 0 1 0 1 0 0 1 1 1 1 0 1 0 1 0 0 0 1 Max value: 26
+Max marking: 1 1 0 0 1 1 1 0 1 0 1 0 1 0 0 1 0 0 0 1 Max value: 25
+Max marking: 0 1 0 1 0 1 1 1 1 0 1 1 0 1 0 1 0 1 1 0 Max value: 33
+Max marking: 1 0 1 1 1 1 0 1 1 0 0 0 0 0 1 0 1 1 1 0 Max value: 26
+Max marking: 0 1 0 0 1 0 0 0 0 1 1 1 1 0 0 0 1 0 0 0 Max value: 18
+Max marking: 0 0 1 0 0 1 1 0 1 1 0 1 1 1 0 0 1 1 1 0 Max value: 28
+Max marking: 1 0 1 0 1 1 0 1 0 0 1 0 1 1 1 0 0 0 1 1 Max value: 27
+Max marking: 0 1 0 1 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1 0 Max value: 36
+Max marking: 1 1 0 1 0 1 0 1 0 1 1 1 1 0 1 1 1 0 1 1 Max value: 36
+Max marking: 0 0 1 0 1 1 0 1 1 0 1 1 1 1 0 1 0 1 0 0 Max value: 30
+Max marking: 1 0 1 1 0 1 0 1 1 0 1 0 1 0 0 1 1 0 1 0 Max value: 23
+Max marking: 0 1 1 0 1 0 1 1 1 1 1 1 0 0 0 0 0 1 0 1 Max value: 23
+Max marking: 0 0 1 0 0 1 0 0 1 0 1 0 1 1 1 1 0 0 1 0 Max value: 22
+Max marking: 1 0 1 0 0 1 1 0 0 0 0 0 0 1 1 1 0 0 1 0 Max value: 19
+Max marking: 0 1 1 1 1 0 1 0 1 1 0 1 0 0 1 1 1 1 0 1 Max value: 27
+Max marking: 1 1 0 1 0 1 1 0 1 1 1 0 1 0 1 1 1 1 0 0 Max value: 26
+Max marking: 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 1 1 0 Max value: 30
+Max marking: 0 0 1 1 0 1 1 1 1 1 1 0 0 0 1 0 0 0 0 1 Max value: 15
+Max marking: 0 1 0 0 0 1 0 0 0 0 1 0 1 0 1 0 0 1 0 1 Max value: 25
+Max marking: 0 0 1 1 0 1 1 1 1 1 0 1 0 1 0 0 0 0 0 0 Max value: 22
+Max marking: 1 0 0 0 1 0 1 1 0 0 0 0 0 1 1 0 1 1 1 1 Max value: 22
+Max marking: 1 0 0 0 1 1 1 1 1 0 0 1 1 1 0 0 0 1 1 0 Max value: 33
+Max marking: 1 0 0 1 0 1 1 1 1 1 1 1 1 0 1 0 1 1 0 0 Max value: 32
+Max marking: 0 1 0 0 0 0 0 0 1 1 1 0 1 1 0 0 1 1 0 1 Max value: 26
+Max marking: 1 1 1 0 0 0 0 0 1 1 1 1 0 1 1 1 1 1 1 0 Max value: 32
+Max marking: 1 1 1 0 1 1 1 0 0 0 0 1 1 1 1 1 0 0 1 1 Max value: 32
+Max marking: 0 0 1 1 1 1 1 0 1 0 0 1 1 1 0 1 0 1 0 0 Max value: 30
+Max marking: 1 0 1 1 0 1 1 1 0 0 0 1 0 1 1 1 0 1 0 1 Max value: 26
+Max marking: 0 1 0 0 0 0 1 0 1 1 1 0 0 1 1 0 0 0 0 1 Max value: 23
+Max marking: 1 1 0 1 0 1 0 0 0 0 0 1 0 1 0 0 1 1 1 1 Max value: 23
+Max marking: 1 0 1 1 0 1 1 0 1 0 0 0 1 0 0 1 0 0 1 1 Max value: 20
+Max marking: 1 0 0 0 1 0 1 1 1 0 0 1 1 0 1 0 1 1 1 1 Max value: 34
+Max marking: 1 0 1 1 1 1 0 1 1 1 1 0 0 1 0 0 1 0 0 1 Max value: 39
+Max marking: 0 0 1 1 0 1 0 1 0 0 1 1 1 1 1 1 1 0 1 0 Max value: 29
+Max marking: 0 0 1 0 0 1 1 1 1 1 0 0 0 1 1 0 1 1 1 1 Max value: 30
+Max marking: 0 0 0 0 0 1 0 0 0 0 1 0 1 1 0 0 0 1 0 1 Max value: 11
+Max marking: 1 0 1 1 1 0 0 0 0 1 1 0 1 0 1 1 1 1 0 0 Max value: 26
+Max marking: 1 0 1 1 0 1 1 0 1 1 1 0 1 0 0 0 1 1 1 1 Max value: 44
+Max marking: 1 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 0 0 1 Max value: 40
+Max marking: 1 1 0 1 1 1 1 0 1 1 0 0 1 0 0 0 1 1 0 1 Max value: 41
+Max marking: 1 1 1 0 0 0 1 1 0 0 1 1 1 1 0 0 0 0 1 1 Max value: 23
+Max marking: 1 0 1 1 0 1 0 1 0 0 1 1 0 0 1 0 0 0 1 1 Max value: 31
+Max marking: 1 1 0 1 0 0 1 1 1 0 0 0 1 0 0 1 1 0 1 1 Max value: 27
+Max marking: 1 1 0 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 0 0 Max value: 32
+Max marking: 1 0 1 1 0 1 0 1 1 0 1 0 0 1 1 1 1 1 0 0 Max value: 32
+Max marking: 0 0 0 1 1 0 1 0 1 0 1 1 1 1 0 0 1 0 0 0 Max value: 16
+Max marking: 1 0 0 1 0 0 0 0 1 0 0 1 0 1 1 1 1 0 1 1 Max value: 25
+Max marking: 1 1 1 1 0 1 1 1 1 0 0 1 0 0 0 0 1 0 1 0 Max value: 19
+Max marking: 1 0 1 1 1 0 1 0 0 1 1 0 0 0 0 1 1 1 0 1 Max value: 30
+Max marking: 1 0 1 1 1 0 0 1 1 0 1 1 1 1 0 0 0 0 1 0 Max value: 23
+Max marking: 1 0 0 0 1 0 1 1 1 1 1 0 1 0 1 1 0 0 1 1 Max value: 31
+Max marking: 1 0 0 1 1 1 0 0 0 0 0 0 0 1 1 1 0 0 1 1 Max value: 29
+Max marking: 0 1 1 1 1 0 0 1 0 1 1 1 1 0 0 1 1 0 1 1 Max value: 40
+Max marking: 0 1 1 1 0 1 0 0 0 0 0 1 0 1 0 1 1 0 1 0 Max value: 19
+Max marking: 1 0 1 1 0 1 0 0 0 0 1 0 0 0 1 1 0 0 1 1 Max value: 23
+Max marking: 0 1 0 0 1 1 0 1 0 0 1 1 1 1 1 1 0 0 1 0 Max value: 22
+Max marking: 1 0 0 0 0 0 1 1 1 0 0 1 1 0 1 1 1 1 1 0 Max value: 22
+Max marking: 1 0 1 1 1 0 1 1 1 0 0 1 1 1 0 1 1 1 1 1 Max value: 30
+Max marking: 0 1 1 1 0 1 0 0 1 0 1 1 0 0 1 1 1 1 1 0 Max value: 28
+Max marking: 0 0 0 1 1 0 1 0 0 1 1 1 0 1 1 0 1 1 1 1 Max value: 36
+Max marking: 0 1 0 1 0 1 0 0 1 0 0 1 1 0 0 1 1 0 1 1 Max value: 23
+Max marking: 0 1 0 1 1 0 1 1 0 1 0 0 0 1 0 1 1 0 1 0 Max value: 22
+Max marking: 1 1 0 0 1 1 0 1 0 0 1 1 0 1 1 0 0 0 0 1 Max value: 25
+Max marking: 1 0 0 0 1 0 0 0 1 0 1 0 1 0 1 1 0 0 1 1 Max value: 20
+Max marking: 1 0 0 0 1 0 0 1 0 0 0 0 0 0 1 1 0 1 1 1 Max value: 21
+Max marking: 1 0 0 1 1 1 0 1 0 1 1 0 0 1 1 0 0 1 0 1 Max value: 22
+Max marking: 0 0 1 0 0 1 1 1 1 1 1 1 0 1 0 0 1 0 0 0 Max value: 24
+Max marking: 0 0 1 1 0 1 1 1 0 1 0 0 1 0 1 0 1 0 1 0 Max value: 26
+Max marking: 0 1 1 1 1 1 0 0 1 0 1 1 1 1 0 1 0 1 0 0 Max value: 25
+Max marking: 1 0 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 1 1 1 Max value: 43
+Max marking: 0 1 1 0 0 0 0 1 0 0 1 0 1 1 0 1 0 1 0 0 Max value: 29
+Max marking: 0 0 1 0 0 0 1 1 0 1 0 1 1 0 0 0 0 1 1 1 Max value: 34
+Max marking: 0 1 1 1 0 0 1 0 0 1 0 1 1 1 0 0 0 1 0 0 Max value: 21
+Max marking: 1 1 1 1 0 0 0 1 0 0 1 0 1 0 1 0 0 1 0 1 Max value: 20
+Max marking: 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 1 0 Max value: 14
+Max marking: 0 0 1 1 0 0 1 1 1 1 1 0 1 0 1 1 1 0 1 0 Max value: 35
+Max marking: 0 0 0 0 1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 0 Max value: 26
+Max marking: 1 0 0 1 1 0 0 1 0 0 1 1 1 0 1 1 0 1 0 1 Max value: 28
+Max marking: 1 0 1 1 0 1 0 1 0 0 1 0 0 1 1 0 0 1 1 0 Max value: 23
+Max marking: 0 0 0 1 0 1 1 1 1 0 1 0 1 0 1 0 1 1 1 1 Max value: 26
+Max marking: 0 1 0 1 1 0 1 1 1 1 1 1 0 1 0 1 0 0 1 1 Max value: 44
+Max marking: 0 1 1 1 1 0 0 0 1 0 1 1 1 0 1 0 0 1 0 0 Max value: 21
+Max marking: 0 1 0 1 1 0 0 0 1 0 1 0 0 0 0 0 1 1 1 0 Max value: 22
+Max marking: 1 1 0 1 1 1 0 0 0 1 1 1 0 0 1 1 1 0 1 0 Max value: 33
+Max marking: 0 0 0 0 1 1 1 0 0 1 0 1 1 0 1 0 1 0 1 1 Max value: 26
+Max marking: 0 0 1 0 0 0 1 1 1 0 0 1 1 1 0 0 1 1 1 1 Max value: 31
+Max marking: 0 0 1 1 1 0 1 0 0 1 1 0 1 1 0 0 1 0 1 1 Max value: 21
+Max marking: 0 0 1 1 0 0 0 0 0 0 1 1 0 1 1 1 0 0 0 0 Max value: 20
+Max marking: 0 0 1 1 1 1 0 1 0 1 1 0 1 1 0 0 1 1 1 0 Max value: 34
+Max marking: 1 1 0 1 1 0 1 0 1 0 1 0 1 1 0 0 0 0 1 1 Max value: 38
+Max marking: 0 1 0 1 0 0 1 1 1 1 1 1 0 0 1 1 1 0 1 0 Max value: 27
+Max marking: 0 1 0 1 0 0 1 1 0 1 0 1 0 1 1 1 0 1 1 0 Max value: 28
+Max marking: 0 0 0 0 0 1 1 0 0 1 1 1 0 1 1 0 1 1 0 1 Max value: 25
+Max marking: 0 1 1 0 0 0 0 1 1 1 0 0 0 0 0 1 0 1 1 1 Max value: 21
+Max marking: 0 1 0 1 0 1 0 0 0 0 1 0 0 1 1 1 1 0 0 1 Max value: 25
+Max marking: 1 1 1 0 1 1 1 0 1 1 1 0 1 0 0 1 1 1 1 0 Max value: 46
+Max marking: 0 1 0 1 1 1 1 0 1 0 0 1 1 1 0 1 0 1 1 0 Max value: 34
+Max marking: 1 0 0 1 1 0 0 1 1 1 1 1 1 1 1 1 0 1 0 1 Max value: 25
+Max marking: 0 1 0 1 0 1 1 1 1 0 1 0 1 1 1 0 0 1 0 0 Max value: 25
+Max marking: 1 0 1 1 1 1 0 0 0 0 0 1 1 1 1 0 1 0 1 0 Max value: 25
+Max marking: 0 0 1 0 0 0 0 1 0 1 1 0 1 0 1 1 0 0 1 1 Max value: 23
+Max marking: 1 0 1 1 0 0 0 1 0 1 0 1 0 1 0 0 0 0 0 0 Max value: 20
+Max marking: 1 0 0 0 1 0 0 0 1 0 1 1 1 0 1 0 0 0 1 1 Max value: 18
+Max marking: 0 1 1 1 0 0 1 1 1 1 0 0 0 1 0 1 0 0 1 0 Max value: 22
+Max marking: 0 1 0 0 1 0 1 1 1 1 1 1 0 0 1 1 1 0 1 1 Max value: 35
+Max marking: 0 1 1 0 0 0 1 1 1 1 0 1 0 1 1 1 1 0 0 1 Max value: 36
+Max marking: 1 0 1 1 1 1 1 1 1 1 0 0 0 1 0 0 1 0 1 1 Max value: 28
+Max marking: 1 1 0 1 1 1 0 0 1 1 0 1 0 1 1 0 1 0 1 1 Max value: 44
+Max marking: 0 0 0 1 0 0 0 0 1 1 1 1 0 1 0 0 1 0 1 1 Max value: 25
+Max marking: 1 0 0 1 1 0 0 1 1 0 0 1 1 0 0 0 1 0 0 0 Max value: 15
+Max marking: 0 1 1 1 0 1 1 1 1 1 1 0 0 0 0 0 1 1 0 0 Max value: 22
+Max marking: 0 1 1 1 0 1 1 0 0 1 0 1 1 1 0 0 1 0 0 1 Max value: 20
+Max marking: 0 0 1 0 0 0 0 1 1 0 0 1 1 1 0 1 0 1 0 0 Max value: 21
+Max marking: 1 0 0 0 1 1 1 1 1 0 1 0 0 1 0 0 1 1 1 0 Max value: 31
+Max marking: 1 1 1 1 1 0 1 1 0 0 0 1 0 0 1 0 0 0 1 1 Max value: 31
+Max marking: 0 1 0 0 0 0 0 0 0 0 1 0 0 1 1 1 1 1 1 0 Max value: 22
+Max marking: 1 1 0 1 0 0 0 1 1 0 1 1 1 0 0 0 1 1 0 0 Max value: 16
+Max marking: 1 0 1 1 1 1 1 1 1 1 0 0 1 1 0 1 1 0 1 1 Max value: 39
+Max marking: 0 1 1 0 1 1 0 0 0 1 1 1 1 0 0 1 0 1 1 0 Max value: 22
+Max marking: 0 0 1 1 0 1 0 1 0 0 0 0 1 0 1 0 1 0 0 0 Max value: 12
+Max marking: 0 1 1 0 1 0 1 0 1 1 0 0 0 0 1 0 1 0 0 1 Max value: 23
+Max marking: 0 1 0 0 1 1 0 0 1 0 1 1 1 1 1 1 0 1 0 0 Max value: 30
+Max marking: 1 0 1 0 1 1 1 0 0 0 1 1 0 1 0 1 1 0 1 1 Max value: 26
+Max marking: 0 1 1 0 1 1 1 0 1 0 1 1 0 0 0 0 1 0 1 1 Max value: 28
+Max marking: 1 0 1 1 0 1 0 1 1 1 1 1 1 0 1 1 0 1 1 1 Max value: 38
+Max marking: 1 1 1 0 0 0 1 0 1 0 0 0 1 0 1 0 1 1 0 0 Max value: 24
+Max marking: 1 1 0 0 1 0 1 1 1 1 0 0 0 1 0 0 1 1 0 1 Max value: 34
+Max marking: 1 1 1 0 1 1 1 1 1 0 0 1 0 1 1 1 0 1 0 1 Max value: 45
+Max marking: 0 0 0 1 1 1 1 1 1 0 0 0 1 1 1 1 0 0 1 1 Max value: 26
+Max marking: 0 0 1 1 1 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 Max value: 42
+Max marking: 1 0 0 1 1 0 0 0 0 0 1 1 1 1 1 1 0 1 1 0 Max value: 24
+Max marking: 0 1 1 0 0 0 1 1 1 1 1 1 1 0 1 1 0 1 0 0 Max value: 27
+Max marking: 0 0 0 0 1 0 0 0 0 1 0 0 1 1 1 1 1 1 1 0 Max value: 18
+Max marking: 1 1 0 1 0 0 0 0 0 1 1 0 1 0 1 0 0 1 1 1 Max value: 32
+Max marking: 1 0 0 1 1 0 1 1 1 0 1 0 0 0 0 0 0 1 0 0 Max value: 12
+Max marking: 0 0 1 0 0 1 0 1 1 1 1 1 0 1 1 1 0 1 1 1 Max value: 40
+Max marking: 1 0 0 1 0 1 1 0 0 0 0 0 1 1 1 0 0 1 1 1 Max value: 21
+Max marking: 1 0 1 1 1 1 1 0 0 1 0 0 0 1 0 1 0 1 0 1 Max value: 34
+Max marking: 0 0 1 0 0 0 0 0 0 0 1 1 0 1 1 1 1 1 0 1 Max value: 26
+Max marking: 0 0 0 0 1 0 1 0 1 1 0 1 0 0 1 0 1 0 0 1 Max value: 17
+Max marking: 0 0 0 1 0 1 0 1 0 0 0 1 1 1 1 1 0 0 1 1 Max value: 21
+Max marking: 1 0 0 1 0 0 0 1 0 1 1 0 0 1 1 1 1 1 0 0 Max value: 21
+Max marking: 0 1 1 1 1 1 0 0 1 0 1 1 1 1 1 1 0 1 1 1 Max value: 36
+Max marking: 1 1 1 0 1 0 1 1 1 0 1 0 0 1 0 1 1 1 1 1 Max value: 39
+Max marking: 0 1 0 1 0 0 0 1 1 0 1 1 0 1 1 0 1 1 1 0 Max value: 22
+Max marking: 0 0 0 1 1 0 1 1 0 1 1 1 0 1 1 1 1 0 0 1 Max value: 38
+Max marking: 1 0 1 1 1 1 1 0 1 0 0 1 1 1 0 0 1 0 1 1 Max value: 36
+Max marking: 0 0 1 1 1 1 0 0 0 1 1 0 1 1 1 0 0 1 1 0 Max value: 24
+Max marking: 1 0 0 1 1 0 0 1 0 1 0 1 0 1 0 1 0 0 1 1 Max value: 16
+Max marking: 0 1 1 1 1 1 0 0 0 1 1 1 0 0 0 0 0 0 0 1 Max value: 28
+Max marking: 0 0 1 0 1 0 1 0 1 1 0 0 1 1 0 0 0 1 0 1 Max value: 18
+Max marking: 1 0 1 1 1 1 0 0 0 1 1 1 0 0 1 0 1 1 0 1 Max value: 35
+Max marking: 1 0 0 1 1 0 0 1 1 0 0 1 0 1 1 0 1 1 1 1 Max value: 26
+Max marking: 0 0 1 0 1 1 0 0 0 1 1 1 0 1 1 0 1 0 1 0 Max value: 26
+Max marking: 0 0 1 0 1 0 0 1 1 0 0 1 1 0 0 1 1 0 0 0 Max value: 20
+Max marking: 1 0 1 1 0 0 1 1 0 1 1 1 0 0 0 1 0 1 1 0 Max value: 29
+Max marking: 1 0 1 1 0 0 1 1 0 0 0 0 0 1 0 1 1 1 0 1 Max value: 24
+Max marking: 1 1 1 1 1 0 1 0 0 1 1 0 1 0 0 0 1 0 1 0 Max value: 30
+Max marking: 1 0 1 0 0 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 Max value: 36
+Max marking: 0 0 0 0 0 0 0 1 0 1 0 1 1 1 1 0 0 1 0 1 Max value: 15
+Max marking: 1 1 0 0 1 0 1 0 0 0 1 1 1 0 1 1 1 1 1 1 Max value: 36
+Max marking: 1 1 0 0 0 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 Max value: 43
+Max marking: 1 1 1 0 0 0 0 0 1 1 0 1 1 1 0 1 0 1 1 0 Max value: 31
+Max marking: 0 1 0 1 0 0 0 0 0 0 0 0 1 1 1 1 0 1 1 0 Max value: 15
+Max marking: 0 0 0 1 1 0 0 1 1 0 0 0 1 1 1 0 1 0 1 0 Max value: 25
+Max marking: 0 0 0 0 1 1 0 0 1 0 1 1 1 1 0 0 1 1 0 0 Max value: 24
+Max marking: 1 1 1 0 1 1 1 1 0 0 0 1 1 1 0 1 1 1 0 1 Max value: 33
+Max marking: 0 1 0 1 1 1 1 1 0 0 1 0 0 0 0 0 0 1 0 0 Max value: 17
+Max marking: 0 1 0 0 1 0 1 0 0 0 1 1 1 1 1 1 1 1 1 1 Max value: 29
+Max marking: 1 0 1 1 1 1 1 1 1 1 0 1 1 0 1 0 0 1 1 0 Max value: 35
+Max marking: 0 1 0 0 0 0 0 0 0 1 1 1 0 0 0 1 0 1 0 1 Max value: 27
+Max marking: 0 0 1 0 0 0 0 0 0 0 0 1 0 0 1 1 0 1 1 1 Max value: 21
+Max marking: 0 0 0 0 0 0 1 1 0 0 1 0 1 1 1 1 0 0 1 0 Max value: 3
+Max marking: 0 0 0 1 1 0 0 1 0 1 0 1 1 1 0 0 0 1 0 0 Max value: 20
+Max marking: 0 0 1 0 1 1 1 1 0 0 1 1 0 1 0 1 1 0 1 1 Max value: 29
+Max marking: 0 1 1 1 1 1 0 1 1 0 1 1 0 1 0 0 1 1 0 0 Max value: 24
+Max marking: 1 1 1 1 0 1 1 0 0 1 1 1 1 1 1 0 1 1 0 0 Max value: 39
+Max marking: 1 0 0 1 0 1 1 0 0 1 0 1 0 0 0 1 1 1 1 0 Max value: 23
+Max marking: 1 0 1 1 1 1 0 0 1 0 1 0 0 1 0 1 1 0 0 1 Max value: 32
+Max marking: 0 1 1 1 1 1 1 1 1 0 1 1 0 0 0 0 1 1 0 1 Max value: 34
+Max marking: 0 0 1 1 0 1 1 1 1 1 0 0 1 0 0 1 0 1 0 1 Max value: 30
+Max marking: 0 0 1 1 0 0 1 1 0 1 1 0 1 1 1 0 1 1 0 1 Max value: 39
+Max marking: 0 1 0 0 0 0 1 0 1 0 1 1 1 0 1 1 0 0 1 0 Max value: 21
+Max marking: 0 1 1 0 0 1 0 1 0 1 1 0 1 1 0 1 1 1 1 0 Max value: 35
+Max marking: 0 0 1 1 0 0 1 1 1 1 1 0 0 0 1 1 0 1 0 0 Max value: 25
+Max marking: 0 0 1 1 0 0 0 1 0 1 0 0 1 1 1 0 1 1 1 1 Max value: 29
+Max marking: 1 1 1 1 1 1 1 0 1 1 0 0 1 0 0 0 1 1 1 1 Max value: 43
+Max marking: 1 0 1 0 1 0 0 1 0 1 0 0 1 1 1 0 1 1 1 1 Max value: 35
+Max marking: 1 0 0 0 0 1 0 1 1 0 1 0 1 1 0 0 0 0 1 1 Max value: 19
+Max marking: 0 0 1 1 0 0 0 1 1 0 0 0 0 1 1 1 1 0 0 0 Max value: 24
+Max marking: 1 1 1 0 1 0 0 1 1 0 0 0 0 1 1 0 1 1 1 0 Max value: 30
+Max marking: 0 0 1 1 0 1 1 1 1 0 1 1 1 1 0 0 0 0 0 1 Max value: 29
+Max marking: 1 0 1 0 1 0 1 0 0 0 0 1 1 0 0 0 0 1 1 0 Max value: 14
+Max marking: 1 0 0 1 1 1 0 1 1 1 1 0 1 0 1 1 1 1 1 0 Max value: 45
+Max marking: 0 0 0 0 1 1 1 1 1 0 0 1 1 0 1 1 0 1 1 0 Max value: 33
+Max marking: 0 0 0 1 0 0 0 1 1 0 1 1 1 0 1 0 0 0 0 0 Max value: 20
+Max marking: 1 1 1 0 1 1 0 1 1 0 1 1 1 0 1 1 0 1 0 0 Max value: 30
+Max marking: 1 1 0 0 0 1 1 1 1 1 0 1 0 0 0 1 0 1 0 0 Max value: 36
+Max marking: 1 1 0 1 0 0 0 1 0 1 1 1 0 1 1 0 0 1 1 0 Max value: 29
+Max marking: 1 1 1 1 0 1 0 1 1 1 0 0 0 1 0 1 0 1 0 1 Max value: 28
+Max marking: 0 0 1 0 0 1 1 1 1 1 0 1 1 0 1 1 1 1 0 0 Max value: 38
+Max marking: 1 0 1 1 1 0 0 1 1 0 0 0 0 0 1 1 1 0 0 0 Max value: 28
+Max marking: 1 0 1 0 0 0 0 1 1 0 0 1 0 0 1 1 1 0 1 1 Max value: 22
+Max marking: 0 0 1 1 0 0 1 1 0 0 1 0 1 0 0 0 0 1 1 0 Max value: 17
+Max marking: 1 1 0 0 0 1 1 1 1 1 1 0 1 0 0 0 0 0 0 0 Max value: 34
+Max marking: 1 1 0 1 0 1 1 0 1 0 0 0 1 1 1 1 1 1 1 0 Max value: 39
+Max marking: 0 0 0 1 1 0 0 0 1 1 1 1 0 0 1 1 1 1 0 1 Max value: 22
+Max marking: 0 0 0 1 0 0 1 1 1 1 1 1 1 0 0 1 1 0 1 1 Max value: 25
+Max marking: 0 0 0 1 0 0 1 0 1 0 0 0 0 0 0 0 1 1 1 1 Max value: 14
+Max marking: 0 1 1 1 1 1 0 0 1 1 1 1 0 1 0 1 0 1 0 1 Max value: 32
+Max marking: 1 0 1 0 1 1 1 1 1 1 1 0 1 0 0 0 0 1 1 1 Max value: 36
+Max marking: 1 0 0 1 1 1 0 0 0 1 1 0 0 0 1 1 0 1 0 1 Max value: 13
+Max marking: 1 0 0 0 0 0 0 0 0 1 0 1 1 1 1 0 0 1 1 1 Max value: 14
+Max marking: 1 0 1 1 1 0 0 1 0 0 1 1 0 1 1 1 1 1 1 0 Max value: 24
+Max marking: 0 1 0 0 0 0 0 0 1 1 1 0 1 0 0 1 0 1 1 0 Max value: 28
+Max marking: 0 1 1 0 0 0 1 0 1 1 1 1 1 0 1 0 1 1 0 1 Max value: 33
+Max marking: 0 0 0 0 1 1 0 0 0 0 0 1 1 0 0 1 1 0 1 0 Max value: 20
+Max marking: 0 0 0 1 1 0 1 0 1 0 1 0 1 0 0 0 0 0 1 1 Max value: 20
+Max marking: 0 0 0 1 0 0 0 0 0 0 1 1 0 1 1 1 0 0 1 0 Max value: 15
+Max marking: 0 1 0 1 1 1 0 1 0 1 1 1 0 0 1 0 1 1 1 1 Max value: 28
+Max marking: 0 1 0 1 0 1 0 1 0 0 1 1 1 0 1 1 1 0 0 0 Max value: 33
+Max marking: 0 1 1 0 0 0 0 1 1 0 1 1 1 1 0 1 0 1 1 1 Max value: 45
+Max marking: 1 1 0 0 1 1 1 1 1 1 1 0 1 1 0 1 1 1 1 0 Max value: 32
+Max marking: 0 0 0 0 1 0 0 1 1 1 0 1 1 0 0 0 1 1 1 0 Max value: 14
+Max marking: 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 1 0 1 0 1 Max value: 27
+Max marking: 0 1 1 0 1 0 0 1 1 1 1 0 1 1 1 1 1 0 1 0 Max value: 39
+Max marking: 0 0 0 1 0 1 1 1 1 1 0 1 1 1 1 0 1 1 1 0 Max value: 47
+Max marking: 0 0 1 1 0 0 0 1 1 1 1 1 0 1 0 0 1 1 1 1 Max value: 29
+Max marking: 0 1 0 1 0 1 0 0 1 1 1 0 1 0 0 0 0 1 1 1 Max value: 27
+Max marking: 0 1 1 1 1 0 0 1 1 1 0 1 1 1 1 0 0 0 0 0 Max value: 27
+Max marking: 0 0 1 1 0 0 0 0 1 1 1 0 0 0 1 1 1 0 1 1 Max value: 30
+Max marking: 0 0 1 1 1 0 0 0 0 0 1 1 0 0 0 0 1 0 1 1 Max value: 16
+Max marking: 0 0 0 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 0 0 Max value: 41
+Max marking: 0 1 1 0 1 1 1 0 0 0 0 0 1 1 1 0 0 0 1 1 Max value: 33
+Max marking: 0 1 1 1 0 1 1 0 0 1 1 1 1 0 0 1 1 0 0 1 Max value: 36
+Max marking: 1 1 1 1 0 0 0 0 1 1 1 1 0 1 0 1 0 0 0 1 Max value: 31
+Max marking: 1 1 0 1 0 0 1 0 0 0 0 0 1 1 0 1 1 1 1 1 Max value: 24
+Max marking: 0 0 1 0 1 0 0 0 1 0 1 1 1 0 0 1 1 1 0 1 Max value: 21
+Max marking: 1 0 1 1 1 1 1 0 0 1 0 0 0 1 1 0 0 0 1 0 Max value: 23
+Max marking: 0 0 1 1 1 1 0 1 0 1 1 1 1 1 1 0 1 0 1 1 Max value: 54
+Max marking: 0 0 0 0 1 0 1 1 0 1 1 1 0 0 0 0 1 1 0 0 Max value: 23
+Max marking: 0 1 1 1 1 0 0 0 0 0 1 1 0 1 1 1 0 1 0 0 Max value: 21
+Max marking: 1 0 0 0 1 1 1 0 1 1 1 1 0 0 1 0 1 1 1 1 Max value: 33
+Max marking: 1 0 1 1 0 0 1 1 1 1 1 0 0 1 0 0 1 1 0 1 Max value: 33
+Max marking: 0 0 1 0 0 0 0 0 0 0 0 1 1 1 0 1 1 1 1 1 Max value: 20
+Max marking: 0 1 0 0 1 1 1 0 1 1 1 1 0 1 1 1 1 1 1 1 Max value: 43
+Max marking: 0 1 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 0 1 1 Max value: 47
+Max marking: 0 1 0 0 1 1 1 0 1 0 1 1 0 1 1 1 0 0 1 0 Max value: 21
+Max marking: 1 1 1 1 1 0 1 1 1 0 1 0 1 0 1 0 0 1 1 1 Max value: 33
+Max marking: 1 0 1 1 0 0 0 1 0 1 1 1 0 1 0 0 1 1 1 1 Max value: 24
+Max marking: 0 1 1 0 0 1 0 1 1 0 1 1 1 0 0 0 0 1 1 0 Max value: 27
+Max marking: 0 0 0 1 1 0 0 1 1 0 0 1 1 0 1 1 0 0 0 0 Max value: 20
+Max marking: 0 1 0 0 0 1 0 0 1 1 0 0 1 1 1 0 1 0 1 0 Max value: 28
+Max marking: 0 1 0 1 0 1 1 1 0 1 1 1 1 0 0 0 1 0 1 1 Max value: 30
+Max marking: 1 1 1 1 0 1 1 0 1 1 0 0 0 0 1 1 1 1 0 0 Max value: 29
+Max marking: 0 0 0 0 1 1 1 1 0 1 0 1 0 1 1 1 0 0 0 0 Max value: 17
+Max marking: 0 0 0 1 1 1 1 0 1 0 0 0 0 0 1 1 0 1 0 1 Max value: 19
+Max marking: 0 0 1 1 0 1 1 1 0 1 1 1 0 0 0 0 0 1 1 1 Max value: 25
+Max marking: 0 0 0 1 1 1 0 0 0 0 0 1 0 0 0 1 1 1 1 1 Max value: 22
+Max marking: 0 1 0 0 0 0 0 0 1 1 0 1 0 1 1 1 1 1 1 1 Max value: 29
+Max marking: 0 0 1 0 1 0 0 1 1 0 0 0 1 1 0 1 0 1 1 1 Max value: 19
+Max marking: 0 0 1 1 0 0 0 0 0 1 1 0 1 1 0 1 0 0 0 0 Max value: 20
+Max marking: 1 1 0 0 1 0 1 0 0 0 1 0 0 1 0 0 0 0 0 1 Max value: 27
+Max marking: 1 0 0 1 0 1 0 0 1 0 1 1 1 1 0 1 1 0 0 0 Max value: 33
+Max marking: 1 1 0 1 0 1 1 1 1 1 1 0 0 0 0 1 0 0 1 1 Max value: 29
+Max marking: 1 0 1 1 1 1 1 0 0 1 0 0 1 0 1 1 1 0 0 1 Max value: 28
+Max marking: 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 Max value: 3
+Max marking: 0 1 1 1 0 1 0 0 0 1 0 1 1 1 0 0 1 0 1 1 Max value: 32
+Max marking: 0 0 0 1 0 0 1 1 1 0 0 1 0 1 0 1 1 1 0 0 Max value: 28
+Max marking: 0 1 1 1 0 0 1 0 0 1 1 1 0 1 0 1 1 0 1 1 Max value: 31
+Max marking: 0 0 1 1 1 0 1 1 0 1 1 0 0 1 0 0 0 0 1 0 Max value: 27
+Max marking: 1 1 0 1 0 1 0 0 1 1 1 1 1 1 0 0 1 0 0 1 Max value: 41
+Max marking: 0 0 1 1 1 0 0 0 0 1 0 0 0 0 1 1 1 1 1 0 Max value: 21
+Max marking: 0 0 0 1 0 0 0 0 1 0 0 1 1 1 1 1 0 1 1 1 Max value: 38
+Max marking: 0 0 0 0 0 0 1 0 0 1 1 1 1 1 0 1 1 0 1 1 Max value: 20
+Max marking: 0 0 0 1 1 1 1 0 1 1 0 1 0 1 1 1 1 0 1 0 Max value: 26
+Max marking: 0 0 1 1 0 0 0 1 1 0 0 1 1 1 1 0 0 0 1 0 Max value: 23
+Max marking: 1 1 0 0 0 0 0 0 1 1 0 0 0 0 1 0 1 1 0 1 Max value: 27
+Max marking: 0 0 1 1 0 1 0 0 1 1 0 1 0 0 1 0 0 1 0 1 Max value: 31
+Max marking: 0 1 1 1 1 0 0 0 1 0 0 1 1 0 1 0 0 1 0 1 Max value: 27
+Max marking: 0 0 1 0 0 1 0 0 0 1 0 1 1 1 1 0 0 1 1 1 Max value: 16
+Max marking: 1 1 0 0 0 1 1 1 1 0 1 1 1 1 0 1 0 1 1 0 Max value: 32
+Max marking: 0 1 1 1 1 1 1 0 0 1 1 0 0 0 1 0 0 0 0 1 Max value: 35
+Max marking: 0 0 1 1 1 0 0 0 0 1 0 0 0 1 1 0 1 1 0 0 Max value: 27
+Max marking: 0 0 0 0 1 0 1 1 1 0 0 1 0 0 0 0 1 0 1 0 Max value: 19
+Max marking: 0 0 0 1 1 1 1 1 0 0 1 1 1 0 1 1 1 0 0 0 Max value: 21
+Max marking: 1 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 1 0 0 0 Max value: 35
+Max marking: 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 0 1 1 1 Max value: 46
+Max marking: 1 0 0 0 1 1 0 1 1 1 1 0 1 1 1 0 1 0 1 0 Max value: 31
+Max marking: 1 1 1 0 1 1 0 1 0 1 0 1 1 1 0 1 1 1 0 1 Max value: 41
+Max marking: 1 1 1 0 1 1 0 1 0 1 0 0 0 1 1 1 0 0 1 1 Max value: 31
+Max marking: 0 0 0 1 0 1 1 0 1 0 1 1 1 1 0 0 1 0 0 0 Max value: 28
+Max marking: 0 1 0 0 0 0 0 1 0 0 1 0 1 1 1 0 0 1 0 0 Max value: 20
+Max marking: 1 0 0 1 0 1 1 1 1 1 0 1 0 0 1 1 1 0 1 1 Max value: 29
+Max marking: 0 0 1 1 0 0 0 0 1 1 0 0 1 1 0 1 1 0 1 1 Max value: 28
+Max marking: 1 0 0 1 0 0 1 0 1 0 0 0 1 1 0 0 1 1 1 0 Max value: 24
+Max marking: 1 0 1 1 0 0 0 1 1 1 0 1 1 1 0 1 1 1 1 0 Max value: 43
+Max marking: 0 0 0 0 0 0 1 0 0 0 1 1 1 0 0 1 1 0 0 0 Max value: 8
+Max marking: 1 1 0 0 1 0 0 0 1 0 0 1 1 1 0 0 1 1 1 0 Max value: 24
+Max marking: 1 0 1 0 1 1 0 0 1 1 1 1 1 0 0 1 1 1 1 1 Max value: 37
+Max marking: 1 0 1 0 0 1 0 1 1 1 1 1 0 0 1 0 0 1 1 1 Max value: 39
+Max marking: 1 1 1 0 0 1 0 1 1 0 1 0 1 1 1 1 0 1 0 1 Max value: 37
+Max marking: 0 0 0 1 0 0 1 1 1 0 0 1 1 1 1 1 1 1 0 1 Max value: 30
+Max marking: 1 1 1 1 0 1 0 1 1 1 1 1 0 1 0 0 0 1 1 0 Max value: 31
+Max marking: 1 1 1 1 1 0 1 1 0 1 1 0 1 1 0 0 1 1 1 0 Max value: 39
+Max marking: 0 1 1 0 0 1 1 1 0 1 0 0 0 0 1 0 0 1 1 0 Max value: 12
+Max marking: 1 1 0 1 1 0 0 0 1 0 1 0 0 0 0 0 0 1 1 1 Max value: 29
+Max marking: 0 1 0 1 1 0 0 1 1 1 0 0 0 1 0 1 0 0 0 0 Max value: 26
+Max marking: 1 1 1 0 0 1 0 1 0 0 0 1 0 1 0 1 0 0 0 1 Max value: 23
+Max marking: 0 1 0 1 0 0 1 1 0 1 1 1 1 0 1 1 1 0 1 0 Max value: 29
+Max marking: 1 1 1 0 1 0 1 0 1 1 0 0 1 1 1 1 0 1 1 0 Max value: 38
+Max marking: 1 1 1 0 1 0 0 0 0 1 1 0 1 0 1 0 0 1 0 1 Max value: 23
+Max marking: 1 1 1 1 0 0 1 1 0 1 1 1 0 1 1 1 1 0 1 1 Max value: 35
+Max marking: 1 1 0 1 1 1 0 0 0 1 0 0 1 1 0 1 0 1 1 0 Max value: 27
+Max marking: 0 0 1 1 0 0 1 1 0 0 1 1 1 1 1 1 1 1 1 1 Max value: 31
+Max marking: 0 0 0 0 1 0 1 1 1 1 0 0 1 1 1 0 1 0 0 1 Max value: 25
+Max marking: 0 0 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 0 0 1 Max value: 28
+Max marking: 0 1 0 0 1 1 1 1 0 1 0 1 1 1 0 0 0 1 1 0 Max value: 25
+Max marking: 0 1 1 1 1 0 1 1 1 1 0 1 1 1 0 1 1 1 0 1 Max value: 53
+Max marking: 1 1 1 1 0 1 0 1 1 0 1 1 1 1 0 0 0 0 0 1 Max value: 35
+Max marking: 1 1 1 0 0 1 0 1 1 0 1 0 1 0 1 1 1 1 0 1 Max value: 40
+Max marking: 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 1 1 1 1 1 Max value: 20
+Max marking: 0 1 0 0 0 0 0 1 1 1 1 0 1 1 1 1 1 1 0 1 Max value: 37
+Max marking: 1 0 1 0 0 1 1 1 0 0 1 1 1 1 1 0 0 1 1 0 Max value: 31
+Max marking: 1 0 0 1 0 1 1 0 1 0 1 0 1 0 0 1 0 1 0 1 Max value: 21
+Max marking: 1 0 1 1 1 1 0 0 0 1 0 0 1 1 0 0 0 1 1 0 Max value: 27
+Max marking: 1 0 0 0 1 0 1 0 0 1 1 1 0 0 1 0 1 1 0 1 Max value: 28
+Max marking: 0 1 1 0 0 0 0 0 1 0 1 0 0 0 1 1 0 1 1 0 Max value: 18
+Max marking: 0 0 1 1 0 1 1 1 1 0 1 0 1 1 1 1 1 0 0 1 Max value: 37
+Max marking: 0 1 0 0 1 1 0 1 1 1 0 0 0 0 1 0 0 0 0 0 Max value: 13
+Max marking: 0 0 0 0 1 0 1 0 0 1 1 0 1 1 1 1 0 0 0 1 Max value: 24
+Max marking: 0 1 1 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 1 1 Max value: 21
+Max marking: 1 0 1 0 1 1 0 1 1 0 0 0 1 0 1 1 1 1 1 1 Max value: 30
+Max marking: 0 0 0 0 1 1 0 0 1 0 0 1 1 1 1 1 0 1 0 0 Max value: 17
+Max marking: 1 1 0 1 1 1 1 0 1 0 0 1 0 1 1 1 1 0 0 0 Max value: 31
+Max marking: 0 0 0 0 0 1 1 0 0 1 1 1 1 0 1 1 1 1 1 1 Max value: 29
+Max marking: 0 0 1 1 0 1 1 0 0 1 1 0 1 1 0 0 1 0 1 1 Max value: 33
+Max marking: 1 0 1 1 1 1 1 1 1 1 1 1 1 0 0 1 0 0 1 1 Max value: 32
+Max marking: 1 0 1 0 1 0 0 1 1 0 1 1 1 0 0 0 0 1 1 0 Max value: 29
+Max marking: 0 1 1 1 1 1 1 0 0 1 0 1 1 1 0 1 0 0 1 1 Max value: 40
+Max marking: 0 1 0 0 1 0 1 1 0 1 0 0 0 1 0 1 1 1 0 1 Max value: 27
+Max marking: 1 0 1 1 0 0 0 1 0 1 0 1 0 0 1 0 1 1 1 0 Max value: 23
+Max marking: 0 0 0 1 0 1 0 1 0 1 0 0 0 1 0 0 1 0 0 0 Max value: 14
+Max marking: 1 0 1 0 1 1 0 0 1 1 0 1 0 0 0 1 1 1 0 0 Max value: 35
+Max marking: 0 0 1 1 0 1 1 1 0 0 1 0 0 0 1 0 1 1 1 0 Max value: 29
+Max marking: 0 1 1 0 1 1 0 0 0 0 1 1 0 0 1 1 1 1 0 1 Max value: 25
+Max marking: 0 1 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 Max value: 43
+Max marking: 0 1 1 1 0 1 1 1 0 0 0 1 1 1 0 1 0 1 0 0 Max value: 32
+Max marking: 0 0 1 1 1 1 1 0 0 1 0 0 0 0 0 0 0 1 0 0 Max value: 20
+Max marking: 0 0 1 0 1 0 0 1 1 1 1 1 1 0 1 1 1 0 1 1 Max value: 22
+Max marking: 0 1 1 1 1 1 0 1 1 0 0 1 1 0 0 0 1 0 1 0 Max value: 32
+Max marking: 0 0 1 1 1 0 1 1 1 1 0 1 0 1 1 0 1 1 0 1 Max value: 35
+Max marking: 1 1 0 1 1 0 0 1 0 0 0 0 1 1 0 0 0 1 0 0 Max value: 25
+Max marking: 1 1 1 1 0 0 1 1 0 1 1 1 1 1 1 1 0 1 1 0 Max value: 41
+Max marking: 1 0 1 1 0 1 0 1 1 1 0 1 1 0 1 1 1 1 1 0 Max value: 49
+Max marking: 0 1 1 0 0 0 0 1 1 0 1 1 1 1 0 0 1 0 1 1 Max value: 25
+Max marking: 1 1 1 0 1 0 1 1 1 1 1 1 1 1 1 1 0 0 1 0 Max value: 29
+Max marking: 1 1 0 1 1 1 0 1 1 1 1 0 1 0 1 1 0 0 0 1 Max value: 19
+Max marking: 1 0 0 0 1 0 1 1 1 0 0 1 0 0 1 1 0 0 0 0 Max value: 23
+Max marking: 0 0 0 1 1 1 1 0 1 1 1 0 0 1 1 1 1 0 1 1 Max value: 43
+Max marking: 0 1 1 1 1 0 1 1 1 1 1 0 1 0 1 0 0 1 0 0 Max value: 34
+Max marking: 0 0 0 0 1 0 1 1 0 1 1 0 1 1 1 1 1 1 1 1 Max value: 26
+Max marking: 1 1 0 1 1 1 0 0 1 0 0 0 1 1 1 1 1 0 0 0 Max value: 29
+Max marking: 0 1 0 1 0 1 1 0 0 0 1 1 0 0 1 1 0 0 0 1 Max value: 32
+Max marking: 1 0 0 0 1 1 1 1 1 0 1 0 0 0 1 1 0 1 0 1 Max value: 33
+Max marking: 1 1 0 1 1 1 1 0 0 0 1 1 1 0 1 1 0 0 0 1 Max value: 38
+Max marking: 0 1 0 1 1 1 0 0 1 0 0 0 1 1 0 0 1 1 0 0 Max value: 18
+Max marking: 0 0 1 0 0 0 1 1 1 1 0 1 1 1 0 1 0 1 1 0 Max value: 39
+Max marking: 1 0 0 1 1 0 1 1 1 1 0 0 1 1 1 1 1 1 0 1 Max value: 33
+Max marking: 1 1 1 1 0 1 0 1 0 1 1 1 1 1 1 0 0 1 1 1 Max value: 41
+Max marking: 0 0 0 1 0 1 1 0 1 1 1 0 1 0 0 1 0 1 0 0 Max value: 20
+Max marking: 1 1 0 1 0 0 1 0 1 1 0 1 1 1 0 0 0 1 1 0 Max value: 19
+Max marking: 1 0 1 0 0 0 1 0 1 0 1 1 0 0 1 0 0 0 1 1 Max value: 16
+Max marking: 0 0 1 1 0 0 1 1 1 1 0 0 0 1 1 1 1 0 0 0 Max value: 28
+Max marking: 0 1 1 1 1 1 0 1 1 0 0 0 1 0 0 0 1 0 1 1 Max value: 23
+Max marking: 0 1 0 0 1 1 1 1 1 1 1 0 1 1 0 1 1 1 1 1 Max value: 29
+Max marking: 0 0 0 0 0 0 1 1 1 0 1 0 1 1 0 1 0 1 0 1 Max value: 28
+Max marking: 0 0 0 0 1 0 0 0 0 0 0 1 1 0 1 0 0 0 1 1 Max value: 18
+Max marking: 1 0 0 1 0 0 1 0 0 0 1 1 1 1 1 0 1 1 1 1 Max value: 31
+Max marking: 0 0 1 1 1 0 0 1 1 0 1 1 0 0 0 0 1 1 1 0 Max value: 23
+Max marking: 1 0 1 1 1 0 0 1 1 0 0 1 0 1 0 0 0 1 1 1 Max value: 25
+Max marking: 0 1 0 1 0 0 0 0 1 1 1 1 0 1 0 0 1 1 1 1 Max value: 31
+Max marking: 0 1 1 1 0 0 0 1 0 1 1 0 1 1 0 0 1 1 0 1 Max value: 24
+Max marking: 1 0 0 0 0 1 0 1 1 0 0 0 0 0 0 0 1 0 0 0 Max value: 21
+Max marking: 1 0 0 1 0 0 0 1 1 0 0 0 0 1 1 0 0 0 0 1 Max value: 16
+Max marking: 1 1 1 0 1 0 0 1 1 1 0 0 1 1 1 0 0 1 1 1 Max value: 39
+Max marking: 1 0 0 1 1 1 1 1 0 0 1 0 1 1 0 1 0 1 1 1 Max value: 43
+Max marking: 0 1 1 1 0 0 0 1 0 0 1 0 1 1 0 1 1 0 0 0 Max value: 20
+Max marking: 0 0 1 1 1 1 1 0 0 0 0 1 0 0 1 0 0 0 1 1 Max value: 17
+Max marking: 1 1 0 1 1 0 0 1 1 1 0 1 1 1 0 1 0 1 0 1 Max value: 36
+Max marking: 1 0 1 0 1 0 1 1 1 0 1 0 1 0 0 0 0 1 1 1 Max value: 27
+Max marking: 1 1 0 0 0 1 0 0 1 1 1 0 1 0 0 1 1 1 1 1 Max value: 36
+Max marking: 0 1 1 1 0 1 0 1 1 0 1 1 1 0 1 0 1 0 1 1 Max value: 33
+Max marking: 0 0 0 1 1 0 0 0 1 0 1 1 1 1 0 1 0 1 1 0 Max value: 20
+Max marking: 1 1 0 1 1 0 1 1 1 1 1 0 1 0 1 1 0 1 1 1 Max value: 39
+Max marking: 0 0 0 0 1 1 0 1 1 0 0 1 0 1 1 0 0 0 0 1 Max value: 26
+Max marking: 1 1 1 1 0 0 1 1 0 0 0 0 1 1 1 0 1 1 1 1 Max value: 50
+Max marking: 1 0 0 1 0 1 0 1 1 1 0 1 1 0 0 0 0 1 1 0 Max value: 28
+Max marking: 0 1 1 1 1 1 1 0 0 0 1 1 0 0 1 1 1 1 1 0 Max value: 29
+Max marking: 0 0 0 1 0 0 1 0 1 0 0 1 1 1 1 0 1 0 1 1 Max value: 35
+Max marking: 0 1 1 1 1 0 1 1 0 0 1 0 0 0 0 1 1 1 0 0 Max value: 30
+Max marking: 0 1 0 1 0 1 1 1 0 1 0 0 1 1 1 1 0 1 0 1 Max value: 24
+Max marking: 0 1 0 1 0 1 1 0 0 0 0 1 1 1 1 0 0 0 0 1 Max value: 28
+Max marking: 1 1 1 0 1 0 1 1 1 1 1 1 1 1 0 1 0 0 0 0 Max value: 40
+Max marking: 1 0 0 1 0 1 1 0 1 1 0 0 1 1 1 1 1 0 0 1 Max value: 39
+Max marking: 1 1 1 0 0 0 1 1 0 1 1 1 0 0 0 1 0 0 0 0 Max value: 26
+Max marking: 0 0 0 0 0 0 1 1 0 1 0 0 1 1 0 1 1 0 1 0 Max value: 16
+Max marking: 0 0 0 1 1 1 1 1 1 1 0 1 0 1 1 0 0 0 1 1 Max value: 28
+Max marking: 1 0 1 1 1 0 0 1 1 0 0 1 1 0 1 0 0 1 1 0 Max value: 22
+Max marking: 0 0 0 1 0 0 1 1 0 1 0 1 0 1 1 0 0 0 1 1 Max value: 22
+Max marking: 1 0 0 0 1 1 1 0 0 1 1 1 1 1 0 0 1 1 0 1 Max value: 17
+Max marking: 1 1 1 0 1 0 1 0 1 0 0 0 1 1 1 1 1 1 0 1 Max value: 26
+Max marking: 1 0 1 1 1 0 1 0 1 0 0 0 1 1 0 0 0 1 0 1 Max value: 24
+Max marking: 1 0 1 1 0 1 0 0 1 0 0 1 1 0 0 1 0 1 1 0 Max value: 26
+Max marking: 0 1 0 1 1 0 0 1 0 1 1 1 0 0 0 1 1 1 1 1 Max value: 28
+Max marking: 0 0 1 1 0 0 1 0 1 1 1 1 1 1 0 0 0 1 1 0 Max value: 17
+Max marking: 0 1 0 1 1 1 0 1 0 1 0 0 1 0 0 1 1 0 1 1 Max value: 40
+Max marking: 1 1 1 0 1 0 1 1 0 1 1 1 0 0 1 1 0 1 0 0 Max value: 37
+Max marking: 0 0 0 0 0 1 1 1 0 0 1 1 1 0 0 0 1 1 1 1 Max value: 28
+Max marking: 0 0 0 0 0 1 1 1 0 1 1 1 0 1 1 0 0 1 1 1 Max value: 26
+Max marking: 0 1 0 0 0 1 0 0 1 1 1 1 1 1 1 0 1 1 0 0 Max value: 32
+Max marking: 1 1 0 1 0 0 1 1 0 1 0 1 1 1 1 0 1 1 0 0 Max value: 39
+Max marking: 1 1 1 1 1 1 0 1 1 0 0 1 0 1 0 0 0 1 0 0 Max value: 35
+Max marking: 0 0 1 1 0 1 1 1 1 0 0 0 0 0 1 1 1 1 1 0 Max value: 29
+Max marking: 0 1 0 0 1 1 1 0 1 0 0 0 1 1 1 0 1 0 1 0 Max value: 13
+Max marking: 1 1 0 1 1 1 1 0 1 0 1 0 0 0 1 0 1 0 0 1 Max value: 23
+Max marking: 1 1 1 0 1 0 1 0 0 0 0 1 0 1 1 0 1 0 1 0 Max value: 29
+Max marking: 0 0 0 0 0 0 1 0 0 0 1 0 1 0 0 0 1 0 0 1 Max value: 19
+Max marking: 0 1 1 0 1 1 0 1 0 0 0 0 1 1 1 1 1 1 0 0 Max value: 21
+Max marking: 0 0 0 0 1 1 0 0 0 1 1 1 1 0 1 0 1 1 1 1 Max value: 21
+Max marking: 1 0 1 0 1 0 0 1 0 1 0 0 1 0 1 0 0 0 1 1 Max value: 25
+Max marking: 1 0 0 1 1 0 0 1 1 1 0 0 1 1 1 0 0 0 1 1 Max value: 17
+Max marking: 1 0 0 1 0 1 0 0 1 0 1 0 1 0 1 1 0 0 1 1 Max value: 25
+Max marking: 0 0 1 0 0 1 1 0 0 1 1 1 1 1 1 0 1 1 0 0 Max value: 25
+Max marking: 1 0 1 0 1 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 Max value: 39
+Max marking: 0 0 1 1 1 0 1 0 1 1 0 0 0 1 1 1 0 0 0 1 Max value: 25
+Max marking: 0 1 0 1 1 1 0 1 0 1 1 1 0 0 1 0 0 0 1 1 Max value: 43
+Max marking: 0 0 0 1 0 0 0 0 0 1 0 1 0 1 1 1 0 0 0 0 Max value: 10
+Max marking: 0 1 1 1 0 0 1 0 1 1 1 1 0 1 0 1 1 0 1 1 Max value: 31
+Max marking: 0 1 1 1 1 0 1 1 0 1 1 1 1 0 1 0 0 0 1 0 Max value: 38
+Max marking: 1 0 1 1 0 0 1 0 0 0 1 0 1 0 1 1 0 0 0 0 Max value: 14
+Max marking: 0 1 1 0 0 0 1 0 0 1 1 1 0 1 1 0 0 1 1 0 Max value: 34
+Max marking: 0 0 1 0 0 1 1 1 0 0 0 0 1 0 1 0 1 1 0 1 Max value: 16
+Max marking: 1 0 1 1 0 0 1 1 1 1 1 1 1 0 0 1 0 1 0 1 Max value: 23
+Max marking: 0 1 0 0 0 0 1 1 0 0 0 1 0 0 1 1 0 1 0 1 Max value: 24
+Max marking: 0 0 0 0 0 0 1 0 0 1 1 0 1 0 0 1 0 1 1 0 Max value: 19
+Max marking: 0 1 1 0 0 1 1 0 0 0 0 1 1 1 1 1 1 0 0 1 Max value: 25
+Max marking: 0 0 1 1 0 0 1 1 1 0 0 0 1 1 1 0 0 1 1 1 Max value: 27
+Max marking: 0 1 1 1 1 1 0 1 0 1 1 1 0 1 0 0 1 0 1 1 Max value: 41
+Max marking: 1 0 1 1 0 1 1 1 1 1 0 1 0 0 1 1 0 0 0 1 Max value: 32
+Max marking: 0 0 1 1 0 0 1 0 0 1 1 1 1 0 1 0 0 1 1 1 Max value: 29
+Max marking: 1 1 1 0 0 0 0 0 0 1 1 1 0 0 1 1 1 1 1 0 Max value: 28
+Max marking: 0 0 1 0 0 1 1 0 0 1 1 0 1 0 1 1 1 0 1 0 Max value: 33
+Max marking: 0 0 0 0 0 1 1 1 0 1 0 1 1 1 1 0 0 1 1 0 Max value: 12
+Max marking: 0 0 0 0 1 1 0 0 0 1 0 0 0 0 0 1 0 0 1 1 Max value: 13
+Max marking: 1 0 0 0 1 0 0 1 0 1 0 1 0 1 1 0 1 0 0 0 Max value: 19
+Max marking: 0 0 1 1 0 1 1 1 1 0 1 1 1 0 0 1 0 0 1 0 Max value: 42
+Max marking: 0 1 1 0 1 0 0 1 1 0 1 0 0 1 1 1 0 0 1 0 Max value: 34
+Max marking: 0 0 0 0 1 0 1 0 1 1 1 0 0 1 1 1 0 0 1 0 Max value: 23

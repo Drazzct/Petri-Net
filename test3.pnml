@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+  <net id="token_ring_3" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <page id="page1">
+      
+      <place id="p0_idle">
+        <name><text>P0_Idle</text></name>
+        <initialMarking><text>1</text></initialMarking>
+        <graphics><position x="100" y="100"/></graphics>
+      </place>
+      <place id="p0_wait">
+        <name><text>P0_Waiting</text></name>
+        <graphics><position x="200" y="100"/></graphics>
+      </place>
+      <place id="p0_cs">
+        <name><text>P0_CriticalSection</text></name>
+        <graphics><position x="300" y="100"/></graphics>
+      </place>
+
+      <place id="p1_idle">
+        <name><text>P1_Idle</text></name>
+        <initialMarking><text>1</text></initialMarking>
+        <graphics><position x="100" y="200"/></graphics>
+      </place>
+      <place id="p1_wait">
+        <name><text>P1_Waiting</text></name>
+        <graphics><position x="200" y="200"/></graphics>
+      </place>
+      <place id="p1_cs">
+        <name><text>P1_CriticalSection</text></name>
+        <graphics><position x="300" y="200"/></graphics>
+      </place>
+
+      <place id="p2_idle">
+        <name><text>P2_Idle</text></name>
+        <initialMarking><text>1</text></initialMarking>
+        <graphics><position x="100" y="300"/></graphics>
+      </place>
+      <place id="p2_wait">
+        <name><text>P2_Waiting</text></name>
+        <graphics><position x="200" y="300"/></graphics>
+      </place>
+      <place id="p2_cs">
+        <name><text>P2_CriticalSection</text></name>
+        <graphics><position x="300" y="300"/></graphics>
+      </place>
+
+      <place id="token_0">
+        <name><text>Token_at_P0</text></name>
+        <initialMarking><text>1</text></initialMarking>
+        <graphics><position x="50" y="100"/></graphics>
+      </place>
+      <place id="token_1">
+        <name><text>Token_at_P1</text></name>
+        <graphics><position x="50" y="200"/></graphics>
+      </place>
+      <place id="token_2">
+        <name><text>Token_at_P2</text></name>
+        <graphics><position x="50" y="300"/></graphics>
+      </place>
+
+      <transition id="t0_req">
+        <name><text>P0_Request</text></name>
+        <graphics><position x="150" y="100"/></graphics>
+      </transition>
+      <arc id="a0_1" source="p0_idle" target="t0_req"/>
+      <arc id="a0_2" source="t0_req" target="p0_wait"/>
+
+      <transition id="t0_enter">
+        <name><text>P0_Enter_CS</text></name>
+        <graphics><position x="250" y="100"/></graphics>
+      </transition>
+      <arc id="a0_3" source="p0_wait" target="t0_enter"/>
+      <arc id="a0_4" source="token_0" target="t0_enter"/> <arc id="a0_5" source="t0_enter" target="p0_cs"/>
+
+      <transition id="t0_exit">
+        <name><text>P0_Exit_CS</text></name>
+        <graphics><position x="350" y="100"/></graphics>
+      </transition>
+      <arc id="a0_6" source="p0_cs" target="t0_exit"/>
+      <arc id="a0_7" source="t0_exit" target="p0_idle"/>
+      <arc id="a0_8" source="t0_exit" target="token_1"/> <transition id="t0_pass">
+        <name><text>P0_Pass_Token</text></name>
+        <graphics><position x="100" y="150"/></graphics>
+      </transition>
+      <arc id="a0_9" source="token_0" target="t0_pass"/>
+      <arc id="a0_10" source="p0_idle" target="t0_pass"/> <arc id="a0_11" source="t0_pass" target="p0_idle"/> <arc id="a0_12" source="t0_pass" target="token_1"/> <transition id="t1_req"> <name><text>P1_Request</text></name> </transition>
+      <arc id="a1_1" source="p1_idle" target="t1_req"/>
+      <arc id="a1_2" source="t1_req" target="p1_wait"/>
+
+      <transition id="t1_enter"> <name><text>P1_Enter_CS</text></name> </transition>
+      <arc id="a1_3" source="p1_wait" target="t1_enter"/>
+      <arc id="a1_4" source="token_1" target="t1_enter"/>
+      <arc id="a1_5" source="t1_enter" target="p1_cs"/>
+
+      <transition id="t1_exit"> <name><text>P1_Exit_CS</text></name> </transition>
+      <arc id="a1_6" source="p1_cs" target="t1_exit"/>
+      <arc id="a1_7" source="t1_exit" target="p1_idle"/>
+      <arc id="a1_8" source="t1_exit" target="token_2"/> <transition id="t1_pass"> <name><text>P1_Pass_Token</text></name> </transition>
+      <arc id="a1_9" source="token_1" target="t1_pass"/>
+      <arc id="a1_10" source="p1_idle" target="t1_pass"/>
+      <arc id="a1_11" source="t1_pass" target="p1_idle"/>
+      <arc id="a1_12" source="t1_pass" target="token_2"/>
+
+
+      <transition id="t2_req"> <name><text>P2_Request</text></name> </transition>
+      <arc id="a2_1" source="p2_idle" target="t2_req"/>
+      <arc id="a2_2" source="t2_req" target="p2_wait"/>
+
+      <transition id="t2_enter"> <name><text>P2_Enter_CS</text></name> </transition>
+      <arc id="a2_3" source="p2_wait" target="t2_enter"/>
+      <arc id="a2_4" source="token_2" target="t2_enter"/>
+      <arc id="a2_5" source="t2_enter" target="p2_cs"/>
+
+      <transition id="t2_exit"> <name><text>P2_Exit_CS</text></name> </transition>
+      <arc id="a2_6" source="p2_cs" target="t2_exit"/>
+      <arc id="a2_7" source="t2_exit" target="p2_idle"/>
+      <arc id="a2_8" source="t2_exit" target="token_0"/> <transition id="t2_pass"> <name><text>P2_Pass_Token</text></name> </transition>
+      <arc id="a2_9" source="token_2" target="t2_pass"/>
+      <arc id="a2_10" source="p2_idle" target="t2_pass"/>
+      <arc id="a2_11" source="t2_pass" target="p2_idle"/>
+      <arc id="a2_12" source="t2_pass" target="token_0"/>
+
+    </page>
+  </net>
+</pnml>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+  <net id="broken_net" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <page id="page1">
+    
+      <place id="p1">
+        <name> <text>start</text> </name>
+        <initialMarking> <text>1</text> </initialMarking>
+      </place>
+
+      <transition id="t1">
+        <name> <text>trans_1</text> </name>
+      </transition>
+
+      <arc id="a1" source="p1" target="t1">
+        <inscription> <text>1</text> </inscription>
+      </arc>
+
+      <arc id="a2" source="t1" target="p99">
+        <inscription> <text>1</text> </inscription>
+      </arc>
+
+    </page>
+  </net>
+</pnml>
