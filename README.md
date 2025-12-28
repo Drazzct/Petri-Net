@@ -92,24 +92,3 @@ The console will display performance metrics for each task:
 ```text
 ├── main.py                # Entry point: Orchestrates all analysis tasks├── requirements.txt       # Python dependencies (numpy, pyeda, pulp, graphviz)├── test3.pnml             # Sample Petri Net model (Token Ring)├── bdd.png                # Output: Visualization of the reachable state space├── README.md              # Project documentation└── src/                   # Source code package    ├── PetriNet.py        # Data structures and XML parsing logic    ├── BFS.py             # Explicit state exploration algorithms    ├── BDD.py             # Symbolic state exploration using PyEDA    ├── Deadlock.py        # Deadlock detection logic (ILP integration)    └── Optimization.py    # Optimization algorithms over BDDs
 ```
-
-## Troubleshooting
-
-### `ImportError: No module named pyeda`
-
-PyEDA requires C extensions. If `pip install pyeda` fails on Windows:
-
-- Try using **WSL (Windows Subsystem for Linux)** (Recommended).
-- Or, verify you have the "Microsoft Visual C++ Build Tools" installed.
-
-### `ExecutableNotFound: failed to execute WindowsPath('dot')`
-
-This indicates the Graphviz software is not in your system PATH.
-
-1.  Reinstall Graphviz.
-2.  Ensure you checked the **"Add to PATH"** option.
-3.  Restart your terminal/IDE._Note: The program will still complete the analysis but will skip generating the PNG image._
-
-### `AssertionError` or `ValueError` during parsing
-
-The parser strictly enforces **1-safe** properties. Ensure your input `.pnml` file does not contain initial markings with more than 1 token per place.
